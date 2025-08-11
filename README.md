@@ -32,21 +32,17 @@ TEST_RETRIES=3                         # Default: 3
 
 ## Running Tests
 
-### Run all tests:
+## Run all tests
 node AllTests.js
 
-### Run specific test suites:
-#### Bucket operations
-node Buckets.js
+## Run specific test suites
+node Buckets.js         # Bucket operations
+node Object.js          # Object operations
+node UploadFile.js      # Single file upload
+node UploadMultiFile.js # Multi-file upload
 
-#### Object operations
-node Object.js
-
-#### Single file upload
-node UploadFile.js
-
-#### Multi-file upload
-node UploadMultiFile.js
+## Or via npm script
+npm run test:UploadFile
 
 ---
 
