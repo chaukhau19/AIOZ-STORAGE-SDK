@@ -1,8 +1,4 @@
-# AIOZ Storage SDK Test Suite
-
-This test suite provides comprehensive testing for the **AIOZ Storage SDK**, covering both **bucket** and **object** operations.
-
----
+# Part 1 - Introduce 
 
 ## Features
 - Organized test categories (bucket operations, object operations)
@@ -11,8 +7,6 @@ This test suite provides comprehensive testing for the **AIOZ Storage SDK**, cov
 - Detailed test reporting
 - Environment variable configuration
 - Command-line support for running specific test suites
-
----
 
 ## Configuration
 You can configure the test suite with environment variables:
@@ -30,7 +24,7 @@ TEST_RETRIES=3                         # Default: 3
 
 ---
 
-## Running Tests
+# Part 2 - Running Tests
 
 ## Run all tests
 node AllTests.js
@@ -44,16 +38,12 @@ node UploadMultiFile.js # Multi-file upload
 ## Or via npm script
 npm run test:UploadFile
 
----
-
 ## Test Results
 - Overall pass/fail counts
 - Test duration
 - Results by test suite
 - Detailed error messages
 - Retry attempts for failed tests
-
----
 
 ## Error Handling
 - Automatic retries (max 3 attempts)
@@ -65,9 +55,8 @@ npm run test:UploadFile
 - Verification after each operation
 - Batch processing for large datasets
 
----
 
-# Detailed Test Scenarios
+# Part 3 - Detailed Test Scenarios
 
 ## 1. BUCKET OPERATIONS
 **Files**: `15_Bucket_Valid.js`, `16_Bucket_Invalid.js`, `17_Bucket_Limits.js`
@@ -93,8 +82,6 @@ npm run test:UploadFile
 - Quotas and usage limits  
 **Testcase**: Large data via `crypto.randomBytes()`
 
----
-
 ## 2. FOLDER OPERATIONS
 **Files**: `01_CreateFolder_Valid.js`, `02_CreateFolder_Invalid.js`
 
@@ -111,8 +98,6 @@ npm run test:UploadFile
 - Special characters  
 - Folder too deep  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
-
----
 
 ## 3. BASIC FILE OPERATIONS
 **Files**: `03_UploadFile_Valid.js`, `04_UploadFile_Invalid.js`
@@ -131,8 +116,6 @@ npm run test:UploadFile
 - Locked file  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
 
----
-
 ## 4. FILE LISTING
 **Files**: `05_ListFile_Valid.js`, `06_ListFile_Invalid.js`
 
@@ -149,8 +132,6 @@ npm run test:UploadFile
 - Invalid filters  
 - Exceed limits  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
-
----
 
 ## 5. DOWNLOAD OPERATIONS
 **Files**: `07_DownloadFile_Valid.js`, `08_DownloadFile_Invalid.js` (uses folder from `01_CreateFolder_Valid` and files from `03_UploadFile_Valid`)
@@ -169,8 +150,6 @@ npm run test:UploadFile
 - Locked file  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
 
----
-
 ## 6. FILE UPDATE
 **Files**: `09_OverwriteFile_Valid.js`, `10_OverwriteFile_Invalid.js` (uses folder from `01_CreateFolder_Valid` and files from `03_UploadFile_Valid`)
 
@@ -187,8 +166,6 @@ npm run test:UploadFile
 - Invalid data  
 - Locked file  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
-
----
 
 ## 7. FILE MOVE
 **Files**: `11_MoveFile_Valid.js`, `12_MoveFile_Invalid.js` (uses folder from `01_CreateFolder_Valid` and files from `03_UploadFile_Valid`)
@@ -207,8 +184,6 @@ npm run test:UploadFile
 - Locked file  
 **Data**: `bucketConfig.LIMITED_PERMISSIONS`
 
----
-
 ## 8. DELETE OPERATIONS 
 **Files**: `13_DeleteFile_Valid.js`, `14_DeleteFile_Invalid.js` (uses folder from `01_CreateFolder_Valid` and files from `03_UploadFile_Valid`)
 
@@ -225,8 +200,6 @@ npm run test:UploadFile
 - Non-empty folder  
 - Locked file  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
-
----
 
 ## 9. LARGE FILE UPLOAD
 **Files**: `UploadLargeFile_Valid.js`, `UploadLargeFile_Invalid.js`, `18_UploadOver10GBFile.js`
@@ -263,8 +236,6 @@ npm run test:UploadFile
 - Verify result  
 **Data**: `crypto.randomBytes()`, get data 10GB from LargeFiles folder
 
----
-
 ## 10. MULTI-FILE UPLOAD
 **Files**: `UploadMultiFile_Valid.js`, `UploadMultiFile_Invalid.js`
 
@@ -283,8 +254,6 @@ npm run test:UploadFile
 - Per-file error handling  
 - Summary report  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
-
----
 
 ## 11. SMALL FILE UPLOAD
 **Files**: `UploadSmallFile_Valid.js`, `UploadSmallFile_Invalid.js`
@@ -307,8 +276,9 @@ npm run test:UploadFile
 - Locked file  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
 
----
+--- 
 
+# Part 4 - Details Testcase
 
 ## 1. Buckets.js
 Tests basic bucket operations using the following credentials:
@@ -393,3 +363,6 @@ Tests object-level operations using the following credentials:
     - Verify folder deletion
     - Confirm folder no longer exists
 
+---
+
+# Part 5 - Source Folder
