@@ -1,9 +1,10 @@
 # AIOZ Storage SDK Test Suite
 
-This test suite provides comprehensive testing for the AIOZ Storage SDK, covering both bucket and object operations.
+This test suite provides comprehensive testing for the **AIOZ Storage SDK**, covering both **bucket** and **object** operations.
+
+---
 
 ## Features
-
 - Organized test categories (bucket operations, object operations)
 - Automatic retries for flaky tests
 - Test timeouts
@@ -11,11 +12,12 @@ This test suite provides comprehensive testing for the AIOZ Storage SDK, coverin
 - Environment variable configuration
 - Command-line support for running specific test suites
 
+---
+
 ## Configuration
 
-The test suite can be configured using environment variables:
+You can configure the test suite with environment variables:
 
-```bash
 # Required
 AIOZ_ACCESS_KEY_ID=your_access_key
 AIOZ_SECRET_ACCESS_KEY=your_secret_key
@@ -26,146 +28,51 @@ AIOZ_ENDPOINT=https://your-endpoint/   # Default: https://s3.aiozstorage.network
 AIOZ_TEST_BUCKET=your-test-bucket      # Default: testdata-1
 TEST_TIMEOUT=30000                     # Default: 30000 (30 seconds)
 TEST_RETRIES=3                         # Default: 3
-```
 
-####################################################################
+---
 
 ## Running Tests
 
 ### Run all tests:
-```bash
-
-```
+node AllTests.js
 
 ### Run specific test suites:
-```bash
-# Run bucket operations tests
+# Bucket operations
 node Buckets.js
 
-# Run object operations tests
+# Object operations
 node Object.js
 
-# Run single file operations
+# Single file upload
 node UploadFile.js
 
-# Run multi-file operations
+# Multi-file upload
 node UploadMultiFile.js
 
-```
+---
 
 ## Test Results
-The test runner provides detailed results including:
 - Overall pass/fail counts
 - Test duration
 - Results by test suite
 - Detailed error messages
 - Retry attempts for failed tests
 
+---
+
 ## Error Handling
-The test suite includes:
-- Automatic retries for flaky tests
+- Automatic retries (max 3 attempts)
 - Timeouts for hanging operations
 - Detailed error reporting
 - Clean exit codes for CI/CD integration
 - Progress monitoring for large files
 - Stream handling for binary data
+- Verification after each operation
+- Batch processing for large datasets
 
-## Error Handling
-- Retries on failed operations (max 3 attempts)
-- Detailed error reporting
-- Verification steps after each operation
-- Batch processing for large operations
+---
 
-####################################################################
-
-## 1. Buckets.js
-Tests basic bucket operations using the following credentials:
-- Access Key: `FSH37T5Z3YIOC7AKCP2WZ6XMMI`
-- Secret Key: `G5B5U64HDSNZ7CWVEFIYZEOMZDRK2HPT4QKVZSFCLDICHSYJ5FLA`
-- Test Bucket: `testdata-6`
-
-#### Test Cases:
-1. **Initial Check & Cleanup**
-   - Check for existing test bucket
-   - Delete if exists to ensure clean state
-
-2. **Create Bucket**
-   - Create new test bucket
-   - Add passphrase as bucket tag
-   - Verify bucket creation
-
-3. **Get Bucket Info**
-   - Retrieve bucket metadata
-   - Verify bucket accessibility
-   - Check HTTP status and request ID
-
-4. **Delete Bucket**
-   - Delete test bucket
-   - Verify successful deletion
-
-## 2. Object.js
-Tests object-level operations using the following credentials:
-- Access Key: `FTKH74PFVY6ZFVLEJQVXA2FD5M`
-- Secret Key: `G77TCUV5Y764AEJ236GHCO5ONI45XJG6WRQBEC3SGHLXW4H2LBKA`
-- Test Bucket: `testdata-1`
-
-#### Test Cases:
-0. **Initial Cleanup**
-   - List all objects in bucket
-   - Delete objects in batches (100 at a time)
-   - Verify bucket is empty
-
-1. **Upload File to Root**
-   - Create test file with timestamp content
-   - Upload to bucket root
-   - Verify upload success
-
-2. **Verify File in Root**
-   - List objects in root directory
-   - Confirm test file presence
-
-3. **Create Folder**
-   - Create new test folder
-   - Verify folder creation
-
-4. **Move File to Folder**
-   - Copy file from root to folder
-   - Delete original file
-   - Verify move operation
-
-5. **Verify File Moved from Root**
-   - List root directory
-   - Confirm file no longer in root
-
-6. **Verify File in Folder**
-   - List folder contents
-   - Confirm file presence in new location
-
-7. **Download File**
-   - Download file from folder
-   - Verify file content matches original
-   - Perform content verification
-
-8. **Rename File**
-   - Copy file with new name
-   - Delete original file
-   - Verify rename operation
-
-9. **Delete File**
-   - Delete file from folder
-   - Verify file deletion
-   - Confirm file no longer exists
-
-10. **Delete Folder**
-    - Delete test folder
-    - Verify folder deletion
-    - Confirm folder no longer exists
-
-####################################################################
-
-# Development
-
-cat <<'EOF' > README.md
+# Detailed Test Scenarios
 
 ## 1. BUCKET OPERATIONS
 **Files**: `15_Bucket_Valid.js`, `16_Bucket_Invalid.js`, `17_Bucket_Limits.js`
@@ -405,4 +312,89 @@ cat <<'EOF' > README.md
 - Locked file  
 **Testcase**: `bucketConfig.LIMITED_PERMISSIONS`
 
-EOF
+---
+
+
+## 1. Buckets.js
+Tests basic bucket operations using the following credentials:
+- Access Key: `FSH37T5Z3YIOC7AKCP2WZ6XMMI`
+- Secret Key: `G5B5U64HDSNZ7CWVEFIYZEOMZDRK2HPT4QKVZSFCLDICHSYJ5FLA`
+- Test Bucket: `testdata-6`
+
+#### Test Cases:
+1. **Initial Check & Cleanup**
+   - Check for existing test bucket
+   - Delete if exists to ensure clean state
+
+2. **Create Bucket**
+   - Create new test bucket
+   - Add passphrase as bucket tag
+   - Verify bucket creation
+
+3. **Get Bucket Info**
+   - Retrieve bucket metadata
+   - Verify bucket accessibility
+   - Check HTTP status and request ID
+
+4. **Delete Bucket**
+   - Delete test bucket
+   - Verify successful deletion
+
+## 2. Object.js
+Tests object-level operations using the following credentials:
+- Access Key: `FTKH74PFVY6ZFVLEJQVXA2FD5M`
+- Secret Key: `G77TCUV5Y764AEJ236GHCO5ONI45XJG6WRQBEC3SGHLXW4H2LBKA`
+- Test Bucket: `testdata-1`
+
+#### Test Cases:
+0. **Initial Cleanup**
+   - List all objects in bucket
+   - Delete objects in batches (100 at a time)
+   - Verify bucket is empty
+
+1. **Upload File to Root**
+   - Create test file with timestamp content
+   - Upload to bucket root
+   - Verify upload success
+
+2. **Verify File in Root**
+   - List objects in root directory
+   - Confirm test file presence
+
+3. **Create Folder**
+   - Create new test folder
+   - Verify folder creation
+
+4. **Move File to Folder**
+   - Copy file from root to folder
+   - Delete original file
+   - Verify move operation
+
+5. **Verify File Moved from Root**
+   - List root directory
+   - Confirm file no longer in root
+
+6. **Verify File in Folder**
+   - List folder contents
+   - Confirm file presence in new location
+
+7. **Download File**
+   - Download file from folder
+   - Verify file content matches original
+   - Perform content verification
+
+8. **Rename File**
+   - Copy file with new name
+   - Delete original file
+   - Verify rename operation
+
+9. **Delete File**
+   - Delete file from folder
+   - Verify file deletion
+   - Confirm file no longer exists
+
+10. **Delete Folder**
+    - Delete test folder
+    - Verify folder deletion
+    - Confirm folder no longer exists
+
