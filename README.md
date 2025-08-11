@@ -15,14 +15,13 @@ This test suite provides comprehensive testing for the **AIOZ Storage SDK**, cov
 ---
 
 ## Configuration
-
 You can configure the test suite with environment variables:
 
-# Required
+## Required
 AIOZ_ACCESS_KEY_ID=your_access_key
 AIOZ_SECRET_ACCESS_KEY=your_secret_key
 
-# Optional
+## Optional
 AIOZ_REGION=us-east-1                  # Default: us-east-1
 AIOZ_ENDPOINT=https://your-endpoint/   # Default: https://s3.aiozstorage.network/
 AIOZ_TEST_BUCKET=your-test-bucket      # Default: testdata-1
@@ -37,16 +36,16 @@ TEST_RETRIES=3                         # Default: 3
 node AllTests.js
 
 ### Run specific test suites:
-# Bucket operations
+#### Bucket operations
 node Buckets.js
 
-# Object operations
+#### Object operations
 node Object.js
 
-# Single file upload
+#### Single file upload
 node UploadFile.js
 
-# Multi-file upload
+#### Multi-file upload
 node UploadMultiFile.js
 
 ---
