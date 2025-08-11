@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" office:version="1.2">
+  <office:font-face-decls>
+    <style:font-face style:name="Courier New" style:font-family-generic="modern" style:font-pitch="fixed" svg:font-family="'Courier New'" />
+  </office:font-face-decls>
+  <office:automatic-styles>
+    <text:list-style style:name="L1">
+      <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="1" style:num-suffix=".">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-number>
+    </text:list-style>
+    <text:list-style style:name="L2">
+      <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="1" style:num-suffix=".">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-number>
+    </text:list-style>
+    <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="text" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" style:wrap="none" /></style:style>
+    <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="text" /></style:style>
+    <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+    </style:style>
+    <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+    </style:style>
+    <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P113" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P114" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P115" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P116" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P117" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P118" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P119" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P120" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P121" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P122" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P123" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P124" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P125" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P126" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P127" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P128" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P129" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P130" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P131" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P132" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P133" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P134" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P135" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P136" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P137" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P138" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P139" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P140" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P141" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P142" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P143" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P144" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P145" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P146" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P147" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P148" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P149" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P150" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P151" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P152" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P153" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P154" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P155" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P156" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P157" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P158" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P159" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P160" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P161" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P162" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P163" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P164" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P165" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P166" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P167" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P168" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P169" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P170" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P171" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P172" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P173" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P174" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P175" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P176" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P177" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P178" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P179" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P180" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P181" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P182" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P183" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P184" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P185" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P186" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P187" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P188" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P189" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P190" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P191" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P192" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P193" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P194" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P195" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P196" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P197" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P198" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P199" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P200" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P201" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P202" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P203" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P204" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P205" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P206" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P207" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P208" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P209" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P210" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P211" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P212" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P213" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P214" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P215" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P216" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P217" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P218" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P219" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+    <style:style style:name="P220" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
+    </style:style>
+  </office:automatic-styles>
+<office:body>
+<office:text>
+<text:p text:style-name="P1"><text:s text:c="2" />TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TP.HCM</text:p>
+<text:p text:style-name="P2"><text:s text:c="6" />KHOA ĐIỆN - ĐIỆN TỬ VIỄN THÔNG</text:p>
+<text:p text:style-name="P3"><text:s text:c="8" />BỘ MÔN ĐIỆN TỬ VIỄN THÔNG</text:p>
+<text:p text:style-name="P4"><text:s text:c="15" />----------</text:p>
+<text:p text:style-name="P5"></text:p>
+<text:p text:style-name="P6"></text:p>
+<text:p text:style-name="P7"></text:p>
+<text:p text:style-name="P8"></text:p>
+<text:p text:style-name="P9"><text:s text:c="16" />BÁO CÁO</text:p>
+<text:p text:style-name="P10"><text:s text:c="10" />THỰC TẬP TỐT NGHIỆP</text:p>
+<text:p text:style-name="First_20_paragraph">Đề tài:</text:p>
+<text:p text:style-name="P11"><text:s text:c="1" />TÌM HIỀU VÀ THỰC HIỆN TEST</text:p>
+<text:p text:style-name="P12"><text:s text:c="5" />VIDEO CONFERENCE</text:p>
+<text:p text:style-name="P13"></text:p>
+<text:p text:style-name="P14"></text:p>
+<text:p text:style-name="P15"></text:p>
+<text:p text:style-name="P16"></text:p>
+<text:p text:style-name="P17"><text:s text:c="35" />GVHD : Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P18"><text:s text:c="35" />CBHD : Đào Văn Tuân</text:p>
+<text:p text:style-name="P19"><text:s text:c="35" />SVTH : Nguyễn Ngọc Thuận</text:p>
+<text:p text:style-name="P20"><text:s text:c="35" />MSSV : 1651040045</text:p>
+<text:p text:style-name="P21"><text:s text:c="35" />LỚP <text:s text:c="2" />: DV16</text:p>
+<text:p text:style-name="P22"></text:p>
+<text:p text:style-name="P23"></text:p>
+<text:p text:style-name="P24"></text:p>
+<text:p text:style-name="P25"></text:p>
+<text:p text:style-name="P26"><text:s text:c="16" />TP.HCM, 9 - 2020</text:p>
+<text:p text:style-name="First_20_paragraph"> MỤC LỤC LỜI CẢM
+ƠN……………………………………………………………………………………………………. 1 NHẬN XÉT CỦA CÔNG
+TY……………………………………………………………………………… 2 NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG
+DẪN……………………………………………………. 3 CHƯƠNG 1: GIỚI THIỆU CTY THỰC
+TẬP………………………………………………………. 4 1.1. Sự thành lập và phát
+triển……………………………………………………………………………… 4 1.2. Dịch vụ và đối tác của
+cty…………………………………………………………………………….12 1.2.1. Dịch
+vụ…………………………………………………………………………………………….12 1.2.2. Đối
+tác…………………………………………………………………………………………….. 14 1.3. Cơ sở hạ
+tầng………………………………………………………………………………………………14 CHƯƠNG 2: NỘI DUNG THỰC TẬP
+TẬP………………………………………………………..16 2.1. Tìm hiểu về SIP
+protocol…………………………………………………………………………….. 16 2.1.1. VoIP (Voice over
+Internet Protocol)…………………………………………………… 16 2.1.2. Giới thiệu chung về
+SIP……………………………………………………………………..16 2.1.3. Các thành phần của
+SIP…………………………………………………………………….. 17 2.1.4. Cấu trúc bản tin
+SIP…………………………………………………………………………..18 2.1.5. SIP
+messages…………………………………………………………………………………….18 2.1.6. Session Description
+Protocol - SDP…………………………………………………….20 2.1.7. Ví dụ về
+SDP…………………………………………………………………………………… 23 2.2. Tìm hiểu về
+Testing……………………………………………………………………………………. 24 2.2.1. Kiểm thử thủ công
+(Manual testing):………………………………………………….. 24 2.2.2. Kiểm thử tự động
+(automation testing)……………………………………………….. 26 2.3. Test Video
+Conference……………………………………………………………………………….. 27 2.3.1. Giới thiệu chung về
+hệ thống media conference……………………………………27 2.3.2. Quá trình gửi
+SDP……………………………………………………………………………..27 2.3.3. Video
+conference……………………………………………………………………………… 29 2.3.4. Thực hiện Test
+(automation testing) cho Video Conference…………………..30 2.3.4.1. Test chức
+năng tạo phòng, tham gia, rời vào phòng và xóa phòng………. 30 2.3.4.2.
+Test chức năng quản lý phiên và số người tham gia tối đa trong một ….32
+KẾT LUẬN………………………………………………………………………………………………………35 BÁO CÁO THỰC TẬP TỐT
+NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P27"><text:s text:c="31" />LỜI CẢM ƠN</text:p>
+<text:p text:style-name="P28"></text:p>
+<text:p text:style-name="P29">Lời đầu tiên, em xin gửi lời cảm ơn đến quý thầy cô khoa Điện-Điện tử viễn thông</text:p>
+<text:p text:style-name="First_20_paragraph">trường Đại học Giao thông
+vận tải TP Hồ Chí Minh đã tạo điều kiện thuận lợi để em hoàn thành tốt
+khóa học, đặc biệt là tạo điều kiện để em tiếp cận với môi trường thực
+tế thông qua đợt thực tập đầy ý nghĩa này.</text:p>
+<text:p text:style-name="P30">Em xin chân thành cảm ơn Ban giám đốc, cán bộ nhân viên Công ty TMA</text:p>
+<text:p text:style-name="First_20_paragraph">Solutions đã tạo nhiều điều
+kiện thuận lợi cho em trong suốt quá trình thực tập. Được thực tập trong
+môi trường chuyên nghiệp của quý công ty cũng như được tham gia vào dự
+án của cty đã giúp em từng bước hoàn thiện kĩ năng, kiến thức chuyên môn
+và đạo đức nghề nghiệp trước khi bước vào nghề. Đặc biệt, em xin cảm ơn
+giáo viên hướng dẫn – thầy Nguyễn Quang Vinh đã hết lòng giúp đỡ, hướng
+dẫn để em hoàn thành báo cáo thực tập đúng thời gian quy định.</text:p>
+<text:p text:style-name="P31">Kết lời, em xin kính chúc quý thầy cô Khoa Điện-Điện tử viễn thông, quý anh chị</text:p>
+<text:p text:style-name="First_20_paragraph">cán bộ nhân viên trong Công
+ty TMA Solutions có thật nhiều sức khỏe, luôn nhiệt huyết với công việc
+hiện tại và luôn thành công trong cuộc sống.</text:p>
+<text:p text:style-name="Text_20_body">Một lần nữa em xin chân thành cảm
+ơn!</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 1 BÁO CÁO
+THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P32"><text:s text:c="36" />NHẬN XÉT CỦA CÔNG TY</text:p>
+<text:p text:style-name="P33"></text:p>
+<text:p text:style-name="P34"><text:s text:c="25" />CÔNG TY TMA SOLUTIONS</text:p>
+<text:p text:style-name="P35"><text:s text:c="17" />(Kèm theo bảng đánh giá quá trình thực tập tại công ty)</text:p>
+<text:p text:style-name="First_20_paragraph">Sinh viên thực hiện :
+NGUYỄN NGỌC THUẬN</text:p>
+<text:p text:style-name="Text_20_body">Trường : ĐẠI HỌC GIAO THÔNG VẬN
+TẢI TP. HỒ CHÍ MINH</text:p>
+<text:p text:style-name="Text_20_body">Đơn vị thực tập : CÔNG TY TMA
+SOLUTIONS</text:p>
+<text:p text:style-name="Text_20_body">Địa chỉ : TMA Solutions Lab 6,
+Đường số 10, CVPM Quang Trung, P. Tân Chánh Hiệp, Quận 12, TP. Hồ Chí
+Minh</text:p>
+<text:p text:style-name="Text_20_body">Nhận xét của đơn vị tiếp
+nhận:</text:p>
+<text:list text:style-name="L1">
+  <text:list-item>
+    <text:p text:style-name="P36">Thái độ thực tập của sinh viên:
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….</text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P36">Nội dung báo cáo:
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….</text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P36">Điểm báo cáo:</text:p>
+<text:p text:style-name="P37"><text:s text:c="47" />TP. Hồ Chí Minh, ngày .… tháng …. năm 2020</text:p>
+  </text:list-item>
+</text:list>
+<text:p text:style-name="First_20_paragraph">THỦ TRƯỞNG ĐƠN VỊ CÁN BỘ
+HƯỚNG DẪN (Ký tên và đóng dấu) (Ký tên và ghi rõ họ tên)</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 2 BÁO CÁO
+THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P38"><text:s text:c="26" />NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN</text:p>
+<text:p text:style-name="P39"></text:p>
+<text:p text:style-name="P40"><text:s text:c="3" />TRƯỜNG ĐH GIAO THÔNG VẬN TẢI THÀNH PHỐ HỒ CHÍ MINH</text:p>
+<text:p text:style-name="P41"><text:s text:c="32" />KHOA ĐIỆN-ĐIỆN TỬ VIỄN THÔNG</text:p>
+<text:p text:style-name="First_20_paragraph">Giáo viên hướng dẫn :
+NGUYỄN QUANG VINH</text:p>
+<text:p text:style-name="Text_20_body">Sinh viên thực hiện : NGUYỄN NGỌC
+THUẬN</text:p>
+<text:p text:style-name="Text_20_body">Đơn vị thực tập : CÔNG TY TMA
+SOLUTIONS</text:p>
+<text:list text:style-name="L2">
+  <text:list-item>
+    <text:p text:style-name="P42">Nội dung báo cáo:</text:p>
+    <text:p text:style-name="P42">……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….
+    ……………………………………………………………………………………………………………….</text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P42">Điểm báo cáo:</text:p>
+<text:p text:style-name="P43"><text:s text:c="46" />TP. Hồ Chí Minh, ngày .… tháng …. năm 2020</text:p>
+<text:p text:style-name="P44"></text:p>
+<text:p text:style-name="P45"><text:s text:c="66" />Giáo viên hướng dẫn</text:p>
+<text:p text:style-name="P46"></text:p>
+<text:p text:style-name="P47"></text:p>
+<text:p text:style-name="P48"></text:p>
+<text:p text:style-name="P49"></text:p>
+<text:p text:style-name="P50"><text:s text:c="67" />Nguyễn Quang Vinh</text:p>
+  </text:list-item>
+</text:list>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 3
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P51"><text:s text:c="14" />CHƯƠNG 1: GIỚI THIỆU CTY THỰC TẬP</text:p>
+<text:p text:style-name="First_20_paragraph">1.1. Sự thành lập và phát
+triển</text:p>
+<text:p text:style-name="Text_20_body">TMA Solutions được thành lập năm
+1997, là công ty phần mềm hàng đầu Việt Nam.</text:p>
+<text:p text:style-name="P52"><text:s text:c="4" />Hình 1.1-Biểu đồ sự phát triển nhân lực cty TMA Solutions qua các năm</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 4
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Quá trình thành lập và phát triển
+của cty qua các năm cụ thể như sau:</text:p>
+<text:p text:style-name="Text_20_body">Năm 1997  TMA do bà Bùi Ngọc Anh
+thành lập với 6 tân kỹ sư vừa tốt nghiệp.</text:p>
+<text:p text:style-name="P53"><text:s text:c="14" /> Văn phòng đầu tiên là phòng khách ở tầng trệt tại ngôi nhà</text:p>
+<text:p text:style-name="P54"><text:s text:c="17" />của người sáng lập.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 1998  Khách hàng đầu
+tiên từ Hoa Kỳ và Canada.</text:p>
+<text:p text:style-name="P55"><text:s text:c="14" /> Tăng gấp ba quy mô công ty lên 18 kỹ sư.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 1999  Tăng gấp ba quy
+mô công ty lên 54 kỹ sư.</text:p>
+<text:p text:style-name="P56"><text:s text:c="14" /> Chuyển đến văn phòng mới tại quận Phú Nhuận (Trụ sở</text:p>
+<text:p text:style-name="P57"><text:s text:c="17" />hiện tại - Lab 1).</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2000  RUP được chấp
+nhận (Quy trình sản xuất phần mềm).</text:p>
+<text:p text:style-name="P58"><text:s text:c="14" /> Đạt 100 nhân viên.</text:p>
+<text:p text:style-name="P59"></text:p>
+<text:p text:style-name="P60"><text:s text:c="14" /> Khách hàng mới từ Úc, Singapore và Ấn Độ.</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 5
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Năm 2001  Khách hàng đầu tiên từ
+Nhật Bản.</text:p>
+<text:p text:style-name="P61"><text:s text:c="11" /> Thành lập trụ sở thứ 2 trên cùng đường tại quận Phú</text:p>
+<text:p text:style-name="P62"><text:s text:c="14" />Nhuận - Lab 2.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2002  Bắt đầu Sáng
+kiến SPI (Cải tiến Quy trình Phần mềm).</text:p>
+<text:p text:style-name="P63"><text:s text:c="11" /> Nằm trong danh sách 15 Công ty Toàn cầu có &quot;Thực tiễn</text:p>
+<text:p text:style-name="P64"><text:s text:c="14" />Tốt nhất về Sử dụng nguồn lực Nước ngoài&quot;.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2003  Khách hàng đầu
+tiên từ Châu Âu.</text:p>
+<text:p text:style-name="P65"><text:s text:c="11" /> Thành lập Trung tâm R&amp;D.</text:p>
+<text:p text:style-name="P66"></text:p>
+<text:p text:style-name="P67"><text:s text:c="11" /> Đạt 200 nhân viên.</text:p>
+<text:p text:style-name="P68"></text:p>
+<text:p text:style-name="P69"><text:s text:c="11" /> Thành lập Trung tâm Đào tạo.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2004  Đạt 300 nhân
+viên.</text:p>
+<text:p text:style-name="P70"><text:s text:c="11" /> Thành lập trụ sở thứ 3 tại quận Phú Nhuận - Lab 3.</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 6
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Năm 2005  Đạt được ISO 9001:
+2000.</text:p>
+<text:p text:style-name="P71"><text:s text:c="11" /> Hoàn thành trụ sở thứ 4 - Lab 4.</text:p>
+<text:p text:style-name="P72"></text:p>
+<text:p text:style-name="P73"><text:s text:c="11" /> Đạt 500 nhân viên.</text:p>
+<text:p text:style-name="P74"></text:p>
+<text:p text:style-name="P75"><text:s text:c="11" /> Nổi bật trên CNN (Mỹ) và NHK (Nhật Bản).</text:p>
+<text:p text:style-name="P76"></text:p>
+<text:p text:style-name="P77"><text:s text:c="11" /> Thành lập văn phòng nước ngoài đầu tiên tại Canada.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2006  Thành lập trụ sở
+tại Nhật Bản.</text:p>
+<text:p text:style-name="P78"><text:s text:c="11" /> Đã đạt được TL9000 và CMMi Cấp 3.</text:p>
+<text:p text:style-name="P79"></text:p>
+<text:p text:style-name="P80"><text:s text:c="11" /> Đã tham gia triển lãm CNTT tại Singapore và Malaysia.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2007  Thành lập trụ sở
+tại Hoa Kỳ.</text:p>
+<text:p text:style-name="P81"><text:s text:c="11" /> Đạt 700 nhân viên.</text:p>
+<text:p text:style-name="P82"></text:p>
+<text:p text:style-name="P83"><text:s text:c="11" /> Đạt được Đối tác Chứng nhận Vàng của Microsoft.</text:p>
+<text:p text:style-name="P84"></text:p>
+<text:p text:style-name="P85"><text:s text:c="11" /> Thành lập Trung tâm Đào tạo TMA dành cho các kỹ sư và</text:p>
+<text:p text:style-name="P86"><text:s text:c="14" />sinh viên bên ngoài.</text:p>
+<text:p text:style-name="P87"></text:p>
+<text:p text:style-name="P88"><text:s text:c="11" /> Mở rộng thị trường châu Âu với các khách hàng mới từ</text:p>
+<text:p text:style-name="P89"><text:s text:c="14" />Đức, Pháp và Đan Mạch.</text:p>
+<text:p text:style-name="P90"></text:p>
+<text:p text:style-name="P91"><text:s text:c="11" /> Thành lập câu lạc bộ Toastmasters Việt Nam đầu tiên tại</text:p>
+<text:p text:style-name="P92"><text:s text:c="14" />TMA.</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 7
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Năm 2008  Dự án mới: Carrier
+VoIP với 120 kỹ sư.</text:p>
+<text:p text:style-name="P93"><text:s text:c="11" /> Khai trương trụ sở thứ 5 tại Công viên phần mềm Quang</text:p>
+<text:p text:style-name="P94"><text:s text:c="14" />Trung.</text:p>
+<text:p text:style-name="P95"></text:p>
+<text:p text:style-name="P96"><text:s text:c="11" /> Cơ cấu phân phối mới: Trung tâm giao hàng.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2009  Ngày công nghệ
+TMA đầu tiên.</text:p>
+<text:p text:style-name="P97"><text:s text:c="11" /> Hoàn thành trụ sở thứ 6- lab 6 (24.000 m ) tại Công viên</text:p>
+<text:p text:style-name="P98"><text:s text:c="54" />2</text:p>
+<text:p text:style-name="P99"></text:p>
+<text:p text:style-name="P100"></text:p>
+<text:p text:style-name="P101"></text:p>
+<text:p text:style-name="P102"><text:s text:c="14" />phần mềm Quang Trung.</text:p>
+<text:p text:style-name="P103"></text:p>
+<text:p text:style-name="P104"><text:s text:c="11" /> Thành lập Giải pháp di động TMA (TMS).</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2010  Thành lập trụ sở
+tại Úc.</text:p>
+<text:p text:style-name="P105"><text:s text:c="11" /> Thành lập TMR (TMA Research ).</text:p>
+<text:p text:style-name="P106"></text:p>
+<text:p text:style-name="P107"><text:s text:c="11" /> Thu thập ý tưởng của nhân viên để lập kế hoạch phát triển</text:p>
+<text:p text:style-name="P108"><text:s text:c="14" />cho công ty.</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 8
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Năm 2011  Đã đạt được CMMi cấp
+độ 5.</text:p>
+<text:p text:style-name="P109"><text:s text:c="11" /> Đạt 1.000 nhân viên.</text:p>
+<text:p text:style-name="P110"></text:p>
+<text:p text:style-name="P111"><text:s text:c="11" /> Thiết lập TMA Tech Lab.</text:p>
+<text:p text:style-name="P112"></text:p>
+<text:p text:style-name="P113"><text:s text:c="11" /> Ra mắt dịch vụ chuyển toán đám mây.</text:p>
+<text:p text:style-name="P114"></text:p>
+<text:p text:style-name="P115"><text:s text:c="11" /> Thành lập SDC (Trung tâm Phát triển Sinh viên).</text:p>
+<text:p text:style-name="P116"></text:p>
+<text:p text:style-name="P117"><text:s text:c="11" /> Thành lập Bảo tàng TMA và thư viện sách cũ.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2012  Đạt 1.200 nhân
+viên.</text:p>
+<text:p text:style-name="P118"><text:s text:c="11" /> Tầm nhìn mới &quot;Công nghệ cho con người&quot;.</text:p>
+<text:p text:style-name="P119"></text:p>
+<text:p text:style-name="P120"><text:s text:c="11" /> Gia nhập CeBIT Hannover - Đức.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2013  Đạt 1.500 nhân
+viên.</text:p>
+<text:p text:style-name="P121"><text:s text:c="11" /> Thành lập Trung tâm TMA Nhật Bản (TJC).</text:p>
+<text:p text:style-name="P122"></text:p>
+<text:p text:style-name="P123"><text:s text:c="11" /> Đạt Chứng nhận ISO 27001: 2005.</text:p>
+<text:p text:style-name="P124"></text:p>
+<text:p text:style-name="P125"><text:s text:c="11" /> Tăng gấp đôi khách hàng tại thị trường Úc.</text:p>
+<text:p text:style-name="P126"></text:p>
+<text:p text:style-name="P127"><text:s text:c="11" /> Thành lập nhóm Big Data &amp; Analytics .</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2014  Đạt 1.700 nhân
+viên.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 9 BÁO CÁO
+THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P128"><text:s text:c="11" /> Ra mắt IMS ( Dịch vụ quản lý CNTT ).</text:p>
+<text:p text:style-name="P129"></text:p>
+<text:p text:style-name="P130"><text:s text:c="11" /> Thành lập T-Design Center (UX / UI).</text:p>
+<text:p text:style-name="P131"></text:p>
+<text:p text:style-name="P132"><text:s text:c="11" /> Thành lập Nhóm IoT (Internet of Things).</text:p>
+<text:p text:style-name="P133"></text:p>
+<text:p text:style-name="P134"><text:s text:c="11" /> Ngày của cha mẹ đầu tiên tại TMA.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2015  Đạt 1.800 nhân
+viên.</text:p>
+<text:p text:style-name="P135"><text:s text:c="11" /> Ra mắt hệ thống phát thanh truyền thông nội bộ.</text:p>
+<text:p text:style-name="P136"></text:p>
+<text:p text:style-name="P137"><text:s text:c="11" /> Ngày trẻ em TMA đầu tiên.</text:p>
+<text:p text:style-name="P138"></text:p>
+<text:p text:style-name="P139"><text:s text:c="11" /> Ra mắt giải thưởng quarterly star performer .</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2016  Ra mắt Techday
+2016.</text:p>
+<text:p text:style-name="P140"><text:s text:c="11" /> Dịch vụ Phân tích Kinh doanh được thành lập.</text:p>
+<text:p text:style-name="P141"></text:p>
+<text:p text:style-name="P142"><text:s text:c="11" /> Ra mắt các giải pháp Thương mại điện tử, Microsoft và</text:p>
+<text:p text:style-name="P143"><text:s text:c="14" />CRM.</text:p>
+<text:p text:style-name="P144"></text:p>
+<text:p text:style-name="P145"><text:s text:c="11" /> Đã tham gia 25 hoạt động cộng đồng.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2017  Kỷ niệm 20 năm
+thành lập.</text:p>
+<text:p text:style-name="P146"><text:s text:c="11" /> Đạt 2.000 nhân viên.</text:p>
+<text:p text:style-name="P147"></text:p>
+<text:p text:style-name="P148"><text:s text:c="11" /> Đạt huy chương vàng về gia công phần mềm 14 năm liên tục</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 10
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P149"><text:s text:c="11" /> Trung tâm đổi mới TMA được thành lập.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2018  Thành lập Trung
+tâm Phần mềm Ô tô TMA.</text:p>
+<text:p text:style-name="P150"><text:s text:c="11" /> Thành lập TMAsia tại Singapore.</text:p>
+<text:p text:style-name="P151"></text:p>
+<text:p text:style-name="P152"><text:s text:c="11" /> Thành lập TMA Bình Định.</text:p>
+<text:p text:style-name="P153"></text:p>
+<text:p text:style-name="P154"><text:s text:c="11" /> Khởi công Công viên Sáng tạo TMA tại Quy Nhơn.</text:p>
+<text:p text:style-name="P155"></text:p>
+<text:p text:style-name="P156"><text:s text:c="11" /> Thành lập Trung tâm phát triển chuỗi khối TMA.</text:p>
+<text:p text:style-name="P157"></text:p>
+<text:p text:style-name="P158"><text:s text:c="11" /> Trung tâm dịch vụ TMA DevOps được thành lập.</text:p>
+<text:p text:style-name="First_20_paragraph">Năm 2019  Đạt 2.500 nhân
+viên.</text:p>
+<text:p text:style-name="P159"><text:s text:c="11" /> Được công nhận là 1 trong 10 công ty hàng đầu Việt Nam về</text:p>
+<text:p text:style-name="P160"><text:s text:c="14" />Công nghiệp 4.0.</text:p>
+<text:p text:style-name="P161"></text:p>
+<text:p text:style-name="P162"><text:s text:c="11" /> Thành lập nhóm khoa học dữ liệu thứ 2 tại TMA Innovation</text:p>
+<text:p text:style-name="P163"><text:s text:c="14" />Park, Quy Nhơn.</text:p>
+<text:p text:style-name="P164"></text:p>
+<text:p text:style-name="P165"><text:s text:c="11" /> Ứng dụng 5G đầu tiên.</text:p>
+<text:p text:style-name="P166"></text:p>
+<text:p text:style-name="P167"><text:s text:c="11" /> Khách hàng đầu tiên từ Đài Loan.</text:p>
+<text:p text:style-name="P168"></text:p>
+<text:p text:style-name="P169"><text:s text:c="11" /> Thị trường Hàn Quốc tăng gấp ba lần.</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 11
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Trải qua 23 năm hoạt động, cty đã
+nhận được rất nhiều bằng khen, giải thưởng và liên tục được báo chí,
+truyền thông trong và ngoài nước đưa tin. Các giải thưởng tiêu biểu
+như:</text:p>
+<text:p text:style-name="Text_20_body"> Bằng khen của Ủy ban Nhân dân
+Thành phố Hồ Chí Minh: Có thành tích xuất sắc trong lĩnh vực CNTT-TT,
+góp phần tích cực vào sự phát triển CNTT-TT của Thành phố.</text:p>
+<text:p text:style-name="Text_20_body"> Chứng nhận và cúp của Hội Tin
+học Thành phố Hồ Chí Minh (HCA).</text:p>
+<text:p text:style-name="Text_20_body"> Huy Chương Vàng Xuất khẩu Phần
+Mềm (15 năm liền từ 2004 đến 2019).</text:p>
+<text:p text:style-name="Text_20_body"> Top 5 Đơn Vị Gia Công Xuất khẩu
+Phần Mềm Hàng Đầu năm 2009 đến 2019.</text:p>
+<text:p text:style-name="Text_20_body"> Bằng khen của VINASA: Có thành
+tích xuất sắc, đóng góp cho các hoạt động của Hiệp hội và cho sự phát
+triển của ngành phần mềm, dịch vụ công nghệ thông tin Việt Nam.</text:p>
+<text:p text:style-name="Text_20_body"> Là một trong 15 công ty hàng
+đầu thế giới trong việc áp dụng hiệu quả quy trình gia công phần mềm
+(Báo cáo của công ty tư vấn Mỹ Aberdeen, 09/2002).</text:p>
+<text:p text:style-name="Text_20_body"> Đối tác chính thức của
+Microsoft từ 2007 đến 2018.</text:p>
+<text:p text:style-name="Text_20_body"> Đạt nhiều chứng chỉ quốc tế cao
+cấp (CMMI-L5, TL 9000, ISO 9001:2000, ISO 27001:2013).</text:p>
+<text:p text:style-name="Text_20_body">1.2. Dịch vụ và đối tác của
+cty</text:p>
+<text:p text:style-name="Text_20_body">1.2.1. Dịch vụ</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 12 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">TMA chuyên cung cấp các dịch
+vụ:</text:p>
+<text:p text:style-name="Text_20_body">Cung cấp giải pháp cho nhiều lĩnh
+vực:</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 13 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">1.2.2. Đối tác</text:p>
+<text:p text:style-name="P170">TMA Solutions hiện là đối tác tin cậy có nhiều năm kinh nghiệm thực hiện những</text:p>
+<text:p text:style-name="First_20_paragraph">dự án lớn &amp; phức tạp
+với những công nghệ mới nhất với hơn 100 khách hàng đến từ hơn 27 quốc
+gia trên thế giới.</text:p>
+<text:p text:style-name="P171"><text:s text:c="22" />Hình 1.2.2-Đối tác của cty trên thế giới</text:p>
+<text:p text:style-name="First_20_paragraph">1.3. Cơ sở hạ tầng</text:p>
+<text:p text:style-name="P172">Hiện tại, TMA Solutions có trụ sở và các chi nhánh như sau:</text:p>
+<text:p text:style-name="P173"></text:p>
+<text:p text:style-name="P174">Trụ sở (Lab 1): 111 Nguyễn Đình Chính, Phường 15, Quận Phú Nhuận</text:p>
+<text:p text:style-name="P175">Chi nhánh 2 (Lab 2): 33/15 Nguyễn Đình Chính, Phường 15, Quận Phú Nhuận</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 14
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Chi nhánh 3 (Lab 3): 10 Đặng Văn
+Ngữ, Phường 10, Quận Phú Nhuận. Chi nhánh 4 (Lab 4): 84A/5 Trần Hữu
+Trang, Phường 10, Quận Phú Nhuận. Chi nhánh 5 (Lab 5): Tòa nhà Anna,
+Công viên phần mềm Quang Trung, P. Tân Chánh Hiệp, Quận 12. Chi nhánh 6
+(Lab 6): Tòa nhà TMA, Công viên phần mềm Quang Trung, P. Tân Chánh Hiệp,
+Quận 12. Chi nhánh 8 (Lab 8): TP.Quy Nhơn, tỉnh Bình Định</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 15 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P176"><text:s text:c="17" />CHƯƠNG 2: NỘI DUNG THỰC TẬP TẬP</text:p>
+<text:p text:style-name="First_20_paragraph">2.1. Tìm hiểu về SIP
+protocol</text:p>
+<text:p text:style-name="Text_20_body">2.1.1. VoIP (Voice over Internet
+Protocol)</text:p>
+<text:p text:style-name="P177">VoIP (Voice over Internet Protocol) là kỹ thuật cho phép truyền tải nội dung thoại</text:p>
+<text:p text:style-name="First_20_paragraph">và đa phương tiện (video,
+hình ảnh, …) qua Internet. Nhằm cung cấp cuộc gọi miễn phí hoặc giúp làm
+giảm chi phí cuộc gọi đến mức thấp nhất đối với các cuộc gọi - gọi đi
+quốc tế.</text:p>
+<text:p text:style-name="P178">Một số ưu điểm của VoIP:</text:p>
+<text:p text:style-name="First_20_paragraph"> Giá thành thấp</text:p>
+<text:p text:style-name="Text_20_body"> Tính di động</text:p>
+<text:p text:style-name="Text_20_body"> Không cần cáp</text:p>
+<text:p text:style-name="Text_20_body"> Tính linh hoạt</text:p>
+<text:p text:style-name="Text_20_body"> Có thể thực hiện cuộc gọi nhiều
+người (Video Conference)</text:p>
+<text:p text:style-name="Text_20_body">2.1.2. Giới thiệu chung về
+SIP</text:p>
+<text:p text:style-name="P179">SIP (Session Initiation Protocol) là một giao thức điều khiển ở tầng ứng dụng có</text:p>
+<text:p text:style-name="First_20_paragraph">thể khởi tạo, thay đổi và
+kết thúc một phiên truyền thông đa phương tiện như là VoIP. SIP còn có
+thể “mời” nhiều thành phần tham gia vào phiên đã có như là các hội thảo
+multicast. Các phương tiện có thể thêm vào hoặc loại bỏ khỏi phiên đang
+tồn tại. SIP hỗ trợ dịch vụ ánh xạ tên và định hướng ngược lại một cách
+trong suốt mà người sử dụng có thể bảo quản một định danh hiển thị bên
+ngoài mà không cần quan tâm đến là họ có hiểu biết về mạng hay
+không.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 16 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">2.1.3. Các thành phần của
+SIP</text:p>
+<text:p text:style-name="P180">Trong SIP, mọi phần tử mạng được xác định bởi SIP URI (Uniform Resource</text:p>
+<text:p text:style-name="First_20_paragraph">Identifier) giống như một
+địa chỉ. Các phần tử mạngbao gồm: User Agent, Proxy Server, Registrar
+Server, Redirect Server, Location Server.</text:p>
+<text:p text:style-name="Text_20_body"> User Agent: điểm cuối và là một
+trong những phần tử mạng quan trọng nhất của mạng SIP. Một điểm cuối có
+thể bắt đầu, sửa đổi hoặc kết thúc một phiên. Tác nhân người dùng là
+thiết bị hoặc phần tử mạng thông minh nhất của mạng SIP. Đó có thể là
+điện thoại mềm, điện thoại di động hoặc máy tính xách tay. Tác nhân
+người dùng được chia hợp lý thành hai phần:</text:p>
+<text:p text:style-name="P181"> User Agent Client (UAC) - Thực thể gửi yêu cầu và nhận phản hồi.</text:p>
+<text:p text:style-name="P182"></text:p>
+<text:p text:style-name="P183"> User Agent Server (UAS) - Thực thể nhận yêu cầu và gửi phản hồi.</text:p>
+<text:p text:style-name="First_20_paragraph"> Proxy Server: thực hiện
+nhiệm vụ chuyển tiếp tín hiệu cuộc gọi, cung cấp các chức năng xác thực
+trước khi cho khai thác dịch vụ. Có 2 kiểu Proxy Server là stateful và
+stateless proxy. Stateful proxy lưu các bản tin request được gửi tới,
+cùng với các bản tin response tương ứng và các bản tin request được nó
+gửi tới các User Agents và proxy khác. Một Stateless proxy không lưu trữ
+bất kỳ thông tin nào.</text:p>
+<text:p text:style-name="Text_20_body"> Registrar Server: chấp nhận yêu
+cầu đăng ký từ tác nhân người dùng. Nó giúp người dùng xác thực trong
+mạng. Nó lưu trữ URI và vị trí của người dùng trong cơ sở dữ liệu để
+giúp các máy chủ SIP khác trong cùng một miền.</text:p>
+<text:p text:style-name="Text_20_body"> Redirect Server: nhận yêu cầu
+và tìm kiếm người nhận yêu cầu dự kiến trong cơ sở dữ liệu vị trí do nhà
+đăng ký tạo. Redirect Server sử dụng cơ sở dữ liệu để lấy thông tin vị
+trí và phản hồi bằng 3xx (Redirect response) cho người dùng.</text:p>
+<text:p text:style-name="Text_20_body"> Location Server: cung cấp thông
+tin về các vị trí có thể có của người gọi đến Redirect Server và proxy
+server. Chỉ proxy server hoặc Redirect Server mới có thể liên hệ với
+Location Server.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 17 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">2.1.4. Cấu trúc bản tin
+SIP</text:p>
+<text:p text:style-name="Text_20_body">Cấu trúc bản tin SIP bao gồm phần
+header và body.</text:p>
+<text:p text:style-name="Text_20_body"> Phần header mang các thông tin
+cần thiết cho việc chuyển tiếp bản tin cũng như để xử lý bản tin. Các
+header thường gặp như:</text:p>
+<text:p text:style-name="Text_20_body"> From: chứa thông tin của người
+khởi tạo request.</text:p>
+<text:p text:style-name="Text_20_body"> To: chỉ ra người thông tin
+người nhận request.</text:p>
+<text:p text:style-name="Text_20_body"> Call-ID: xác định ID của cuộc
+gọi SIP.</text:p>
+<text:p text:style-name="Text_20_body"> Via: chỉ ra phương thức truyền
+dẫn của một request và xác định nơi mà response cần gửi đi.</text:p>
+<text:p text:style-name="Text_20_body"> Contact: cung cấp thông tin SIP
+hoặc SIP URI của phía người gửi request.</text:p>
+<text:p text:style-name="Text_20_body"> Phần body chứa thông tin về
+media của của cuộc gọi SIP. Ví dụ như Session Description Protocol (SDP)
+dùng cho truyền tải thoại và video.</text:p>
+<text:p text:style-name="Text_20_body">2.1.5. SIP messages</text:p>
+<text:p text:style-name="Text_20_body">SIP messages được chia làm hai
+loại: requests và responses.</text:p>
+<text:p text:style-name="Text_20_body">SIP requests thường gặp:</text:p>
+<text:p text:style-name="Text_20_body"> INVITE: Đây là phương thức được
+gởi đi để khởi động báo hiệu cuộc gọi. Yêu cầu được sử dụng để mời 1
+user kết nối cuộc gọi. Thông điệp này chứa thông tin cơ bản như định
+danh người gọi và định danh người được gọi….</text:p>
+<text:p text:style-name="Text_20_body"> ACK: Một phiên SIP đơn giản bắt
+đầu từ phương thức INVITE. Khi người được gọi xác nhận rằng đã nhận được
+lời gọi INVITE, sẽ có một thông điệp trả lời với phương thức ACK. Thông
+điệp này chứa đặc tả SDP về các thông số để thiết lập phiên truyền
+thông.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 18 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body"> OPTIONS: Thông điệp được gởi để
+truy vấn các khả năng của hai bên.</text:p>
+<text:p text:style-name="Text_20_body"> BYE: Kết thúc cuộc gọi giữa hai
+người sử dụng. Thông điệp này không cần phải có trả lời từ đối
+tác.</text:p>
+<text:p text:style-name="Text_20_body"> REGISTER: Cung cấp sự ánh xạ
+phân giải địa chỉ. Ví dụ để server biết vị trí của người sử dụng
+khác.</text:p>
+<text:p text:style-name="Text_20_body"> CANCEL: Kết thúc một yêu cầu
+sắp xãy ra nhưng không kết thúc cuộc gọi.</text:p>
+<text:p text:style-name="Text_20_body"> INFO: Được sử dụng để mang
+thông tin giữa cuộc gọi. INFO không được dùng để thay đổi trạng thái của
+một cuộc gọi đã ổn định.</text:p>
+<text:p text:style-name="Text_20_body">SIP responses thường
+gặp:</text:p>
+<text:p text:style-name="Text_20_body"> 100 Trying, yêu cầu đã được
+nhận tại một server ở chặng kế tiếp. Mã này được trả về từ một proxy
+server hoặc server trung gian khác trên đường báo hiệu cuộc
+gọi.</text:p>
+<text:p text:style-name="Text_20_body"> 180 Ringing.</text:p>
+<text:p text:style-name="Text_20_body"> 181 Call Forwarding, nếu một
+proxy server trả về mã này, cũng có thể nhận diện nơi mà nó đang chuyển
+cuộc gọi trong phần thân của thông điệp này.</text:p>
+<text:p text:style-name="Text_20_body"> 182 Queued for Service, các ứng
+dụng có thể trì hoãn trả lời cuộc gọi cho đến khi nó đã phục vụ các cuộc
+gọi đang xếp hàng.</text:p>
+<text:p text:style-name="Text_20_body"> 183 Session Progress.</text:p>
+<text:p text:style-name="Text_20_body"> 200 OK. Yêu cầu được thực thi
+thành công.</text:p>
+<text:p text:style-name="Text_20_body"> 400 Bad request. Lỗi cú pháp
+thông điệp.</text:p>
+<text:p text:style-name="Text_20_body"> 401 User yêu cầu xác thực trước
+khi thực hiện yêu cầu này.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 19 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body"> 403 Forbidden. Nhận được khi cố
+gắng gọi một số không được chấp nhận từ thuê bao của chúng ta.</text:p>
+<text:p text:style-name="Text_20_body"> 404 Không tìm thấy
+user.</text:p>
+<text:p text:style-name="Text_20_body"> 408 Request time-out.</text:p>
+<text:p text:style-name="Text_20_body"> 500 Lỗi server.</text:p>
+<text:p text:style-name="Text_20_body"> 600 Busy</text:p>
+<text:p text:style-name="Text_20_body"> 603 Decline</text:p>
+<text:p text:style-name="Text_20_body"> 604 Does not exist</text:p>
+<text:p text:style-name="Text_20_body">Thông thường, trong quá trình xử
+lý thiết lập phiên, các thành phần có liên quan sẽ trao đổi thông tin
+của phiên trong phần thân của thông điệp SIP. Các thông tin này thường
+được mô tả bằng thông điệp SDP.</text:p>
+<text:p text:style-name="Text_20_body">2.1.6. Session Description
+Protocol - SDP.</text:p>
+<text:p text:style-name="Text_20_body">SDP được sử dụng để mô tả các
+phiên đa phương tiện của người tham gia. Tùy thuộc vào mô tả này, người
+tham gia được quyết định có tham gia vào conference hay không hoặc khi
+nào hoặc cách thức tham gia là video hay audio conference, định dạng
+video, audio, hoặc kể cả độ phân giải của video hay chất lượng âm
+thanh.</text:p>
+<text:p text:style-name="Text_20_body">SDP bao gồm:</text:p>
+<text:p text:style-name="Text_20_body"> Tên phiên và mục đích.</text:p>
+<text:p text:style-name="Text_20_body"> Thời gian phiên được kích
+hoạt.</text:p>
+<text:p text:style-name="Text_20_body"> Thông tin nhận được của quá
+trình truyền thông đó (địa chỉ, cổng, giao tiếp, định dạng …)</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 20 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Tuy vậy một tài nguyên tham gia
+vào phiên có thể được hạn chế hoặc có thể thêm một số thông tin như là:
+Thông tin về băng thông được sử dụng, thông tin liên lạc với người
+khác.</text:p>
+<text:p text:style-name="Text_20_body">Các thành phần trong SDP được
+miêu tả thông qua các trường sau:</text:p>
+<text:p text:style-name="Text_20_body">v= (Phiên bản giao
+thức).</text:p>
+<text:p text:style-name="Text_20_body">o= (Mô tả người thiết lập
+phiên).</text:p>
+<text:p text:style-name="Text_20_body">s= (Tên phiên).</text:p>
+<text:p text:style-name="Text_20_body">c = * (Thông tin kết
+nối).</text:p>
+<text:p text:style-name="Text_20_body">t= (Thời gian phiên bắt đầu và
+thời gian kết thúc kích hoạt).</text:p>
+<text:p text:style-name="Text_20_body">m= (Tên truyền thông và địa chỉ
+truyền).</text:p>
+<text:p text:style-name="Text_20_body">a = * (không có gì hoặc nhiều
+thuộc tính truyền thông).</text:p>
+<text:p text:style-name="Text_20_body"> Trường v cho phiên bản của
+SDP.</text:p>
+<text:p text:style-name="Text_20_body"> Trường o cho biết thông tin
+khởi đầu của phiên (đây là username và địa chỉ của máy chủ) cộng với
+định dạng của phiên và số phiên bản phiên:</text:p>
+<text:p text:style-name="Text_20_body">o=</text:p>
+<text:p text:style-name="Text_20_body"> là tên người đăng nhập vào máy
+chủ, hoặc là “-“ nếu máy chủ không hỗ trợ nội dụng định danh người sử
+dụng. Trường username phải có giá trị, không được là khoảng
+trống.</text:p>
+<text:p text:style-name="Text_20_body"> là một chuỗi số mà ứng với các
+hình thể ,, ,</text:p>
+<text:p text:style-name="Text_20_body">và</text:p>
+<text:p text:style-name="Text_20_body">là một định danh độc nhất cho
+phiên. tuỳ vào công cụ tạo ra nhưng nó xuất phát từ giao thức NTP
+(Network Time Protocol)</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 21 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body"> là một trường số có thể tăng
+lên sau mỗi phiên thay đổi. Nó là cần thiết để dò tìm các dịch vụ thông
+báo cho phiên giống nhau đã tồn tại.</text:p>
+<text:p text:style-name="Text_20_body"> luôn là IN đại diện cho
+internet, được định nghĩa cho mạng Internet.</text:p>
+<text:p text:style-name="Text_20_body"> là một số đại diên cho kiểu địa
+chỉ cho phép. Khởi tạo là IP4 cho IPv4 và IP6 cho IPv6.</text:p>
+<text:p text:style-name="Text_20_body"></text:p>
+<text:p text:style-name="Text_20_body">là địa chỉ duy nhất của máy nơi
+phiên được tạo ra.</text:p>
+<text:p text:style-name="Text_20_body"> Trường s là tên phiên. Tên này
+là duy nhất cho việc miêu tả phiên.</text:p>
+<text:p text:style-name="Text_20_body"> Trường c chứa thông tin về dữ
+liệu kết nối. Gồm các thành phần sau:</text:p>
+<text:p text:style-name="Text_20_body">c = </text:p>
+<text:p text:style-name="Text_20_body"></text:p>
+<text:p text:style-name="Text_20_body"> : kiểu mạng được định nghĩa như
+trên.</text:p>
+<text:p text:style-name="Text_20_body"></text:p>
+<text:p text:style-name="Text_20_body">: là kiểu địa chỉ cũng được định
+nghĩa như trên.</text:p>
+<text:p text:style-name="Text_20_body"> : địa chỉ IP hoặc host mà sẽ
+gửi các gói dữ liệu truyền thông, mà có thể là một trong hai multicast
+hoặc unicast.</text:p>
+<text:p text:style-name="Text_20_body"> Trường t chỉ định thời gian bắt
+đầu và kết thúc của một phiên.</text:p>
+<text:p text:style-name="Text_20_body">t = </text:p>
+<text:p text:style-name="Text_20_body"> Trường m miêu tả truyền thông.
+Gồm các thành phần sau:</text:p>
+<text:p text:style-name="Text_20_body">m = </text:p>
+<text:p text:style-name="Text_20_body"> Trường đầu tiên là kiểu truyền
+thông. Ví dụ như “audio”, “video”, “application”, “data” và
+“control”.</text:p>
+<text:p text:style-name="Text_20_body"> Trường thứ hai là cổng vận
+chuyển.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 22 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body"> Trường thứ ba là giao thứ vận
+chuyển. Giá trị phụ thuộc vào trường địa chỉ c.</text:p>
+<text:p text:style-name="Text_20_body"> Trường thứ tư chứa thông tin về
+media, thông thường là payload được xác định trong audio/video
+profile.</text:p>
+<text:p text:style-name="Text_20_body"> Trường a miêu tả cấu trúc của
+hình thể rtpmap. Gồm các thành phần:</text:p>
+<text:p text:style-name="Text_20_body">a=rtpmap:/[/]</text:p>
+<text:p text:style-name="Text_20_body">: kiểu payload.</text:p>
+<text:p text:style-name="Text_20_body"> tên phương pháp mã hoá.</text:p>
+<text:p text:style-name="Text_20_body">Với luồng audio, có thể số kênh
+audio.</text:p>
+<text:p text:style-name="Text_20_body">Đây là thông số có thể bỏ qua nếu
+số kênh là một nhà cung cấp.</text:p>
+<text:p text:style-name="Text_20_body">2.1.7. Ví dụ về SDP</text:p>
+<text:p text:style-name="Text_20_body">v=0 o=alice 2890844526 2890844526
+IN IP4 host.atlanta.example.com s=- c=IN IP4 192.168.23.21 t=0 0 m=audio
+40000 RTP/AVP 8 a=rtpmap:8 PCMA/8000</text:p>
+<text:p text:style-name="Text_20_body">v=0 o=alice 2890844526 2890844526
+IN IP4 host.atlanta.example.com s=- c=IN IP4 10.250.194.250 t=0 0
+m=video 40006 RTP/AVP 99 100 a=rtpmap:99 VP8/8000 a=fmtp:99 max-fr=30;
+max-fs=1200;a=rtpmap:100 vp9/9000</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 23 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">2.2. Tìm hiểu về Testing</text:p>
+<text:p text:style-name="P184">Kiểm thử phần mềm là quá trình thực thi một chương trình nhằm mục đích đảm</text:p>
+<text:p text:style-name="First_20_paragraph">bảo sản phẩm, phần mềm đáp
+ứng chính xác, đầy đủ và đúng theo yêu cầu của khách hàng, yêu cầu của
+sản phẩm đã đặt ra.</text:p>
+<text:p text:style-name="Text_20_body">2.2.1. Kiểm thử thủ công (Manual
+testing):</text:p>
+<text:p text:style-name="P185">Manual testing là một loại kiểm thử phần mềm trong đó các trường hợp kiểm thử</text:p>
+<text:p text:style-name="First_20_paragraph">được thực thi thủ công bởi
+người kiểm thử (tester) mà không sử dụng bất kỳ công cụ tự động nào. Mục
+đích của kiểm thử thủ công nói riêng và kiểm thử nói chung là đảm bảo
+cho sản phẩm hoạt động chính xác, đầy đủ và đúng theo yêu cầu của khách
+hàng, yêu cầu của sản phẩm đã đặt ra. Kiểm thử giúp xác định các lỗi
+(bug), sự cố (issue) và khiếm khuyết (defect) trong ứng dụng phần mềm.
+Kiểm thử phần mềm thủ công được xem là kỹ thuật cơ sở và đầu tiên trong
+tất cả các loại kiểm thử và nó giúp tìm ra các lỗi nghiêm trọng trong
+ứng dụng phần mềm.</text:p>
+<text:p text:style-name="P186">Bất kỳ ứng dụng mới nào cũng phải được kiểm tra thủ công bằng những test case</text:p>
+<text:p text:style-name="First_20_paragraph">cơ bản, trước khi quá trình
+kiểm tra của nó có thể được tự động hóa.</text:p>
+<text:p text:style-name="P187"><text:s text:c="28" />Hình 2.2.1-Các loại testing</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 24
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">Hình 2.1.2 thể hiện các loại
+manual testing. Trên thực tế, bất kỳ loại testing nào cũng có thể thực
+theo cách kiểm thử thủ công (manunal testing) và kiểm thử tự động
+(automation testing)</text:p>
+<text:p text:style-name="Text_20_body"> Kiểm thử hộp đen (Black box
+testing): phương pháp kiểm thử mà tester sẽ chỉ xem xét đến đầu vào và
+đầu ra của chương trình mà không quan tâm code bên trong được viết ra
+sao. Tester thực hiện kiểm thử dựa hoàn toàn vào đặc tả yêu cầu . Mục
+đích của kiểm thử hộp đen là tìm ra các lỗi ở giao diện , chức năng của
+phần mềm. Các trường hợp kiểm thử sẽ được xây dựng xung quanh
+đó.</text:p>
+<text:p text:style-name="Text_20_body"> Kiểm thử hộp trắng (White box
+testing): phương pháp kiểm thử mà cấu trúc thuật toán của chương trình
+được đưa vào xem xét. Các trường hợp kiểm thử được thiết kế dựa vào cấu
+trúc mã hoặc cách làm việc của chương trình. Người kiểm thử truy cập vào
+mã nguồn của chương trình để kiểm tra nó.</text:p>
+<text:p text:style-name="Text_20_body"> Kiểm thử đơn vị (Unit test):
+Kiểm thử đơn vị là hoạt động kiểm thử nhỏ nhất. Kiểm thử thực hiện trên
+các hàm hay thành phần riêng lẻ. Đây là một công việc mà để thực hiện
+được nó thì người kiểm thử sẽ phải hiểu biết về code, về chương trình,
+các hàm, … . Mục đích của việc thực hiện kiểm thử đơn vị là cô lập từng
+thành phần của chương trình và chứng minh các bộ phận riêng lẻ chính xác
+về các yêu cầu chức năng.</text:p>
+<text:p text:style-name="Text_20_body"> Kiểm thử tích hợp (Intergration
+test): một phần mềm được tạo ra sẽ bao gồm rất nhiều module trong đó, để
+chắc chắn rằng phần mềm hoạt động tốt thì chúng ta cần phải gom các
+module lại với nhau để kiểm tra sự giao tiếp giữa các module cũng như
+bản thân từng thành phần từng module.</text:p>
+<text:p text:style-name="Text_20_body"> Kiểm thử hệ thống (System
+test): xác minh rằng nó đáp ứng được yêu cầu Kiểm thử hệ thống thuộc
+loại kiểm thử hộp đen. Kiểm thử hệ thống tập trung nhiều hơn vào các
+chức năng của hệ thống. Kiểm tra cả chức năng và giao diện, các hành vi
+của hệ thống một cách hoàn chỉnh, đáp ứng với yêu cầu.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 25 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body"> Kiểm thử chấp nhận ( Acceptance
+test): phần mềm sẽ được thực hiện kiểm tra từ người dùng để tìm ra nếu
+phần mềm phù hợp với sự mong đợi của người dùng và thực hiện đúng như
+mong đợi. Trong giai đoạn test này, tester có thể cũng thực hiện hoặc
+khách hàng có các tester của riêng họ để thực hiện.</text:p>
+<text:p text:style-name="Text_20_body">2.2.2. Kiểm thử tự động
+(automation testing)</text:p>
+<text:p text:style-name="P188"><text:s text:c="4" />Automation testing là một kỹ thuật kiểm thử phần mềm thực hiện bằng cách sử</text:p>
+<text:p text:style-name="First_20_paragraph">dụng các công cụ phần mềm
+kiểm tra tự động đặc biệt để thực thi một bộ trường hợp kiểm thử. Phần
+mềm kiểm tra tự động hóa cũng có thể nhập dữ liệu kiểm tra vào Hệ thống
+đang kiểm tra, so sánh kết quả dự kiến và thực tế và tạo báo cáo kiểm
+tra chi tiết.</text:p>
+<text:p text:style-name="P189"><text:s text:c="4" />So với manual testing thì automation testing là phương pháp kiểm thử hiệu quả</text:p>
+<text:p text:style-name="First_20_paragraph">hơn, phạm vi kiểm tra và
+tốc độ thực thi trong kiểm thử phần mềm cũng tố hơn. Điều đó được chứng
+minh thông qua những lý do sau:</text:p>
+<text:p text:style-name="Text_20_body"> Tự động hóa kiểm tra không cần
+sự can thiệp của con người. Chúng ta có thể chạy kiểm thử tự động mà
+không cần giám sát và có thể chạy qua đêm. Điều đó cũng rất thích hợp
+cho việc thực hiện regession test.</text:p>
+<text:p text:style-name="Text_20_body"> Kiểm tra thủ công cho tất cả
+các quy trình công việc, tất cả các kịch bản tiêu cực rất tốn thời
+gian.</text:p>
+<text:p text:style-name="Text_20_body"> Việc nhập dữ liệu trong quá
+trình kiểm thử thủ công bị lặp đi lặp lại quá nhiều lần làm cho tester
+có thể bị nhàm chán, sai lệch đầ vào, dẫn tới kết quả cũng sai lệch
+theo.</text:p>
+<text:p text:style-name="Text_20_body"> Automation test thực hiện nhập
+dữ liệu và kiểm tra kết quả mong muốn một cách tự động theo kịch bản đã
+đặt ra.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 26 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">2.3. Test Video
+Conference</text:p>
+<text:p text:style-name="Text_20_body">2.3.1. Giới thiệu chung về hệ
+thống media conference</text:p>
+<text:p text:style-name="Text_20_body">Hệ thống media conference là hệ
+thống có thể thực hiện cả Video Conference và Audio Conference. Một số
+chức năng có thể thực hiện như RTP/SRTP Media Control, Transcoding,
+Mixing và Recording. Các thành phần quan trọng trong media
+conference:</text:p>
+<text:p text:style-name="Text_20_body"> Thành phần điều khiển Media:
+thực hiện tác vụ giải quyết các yêu cầu liên quan đến phòng (room), thực
+hiện các yêu cầu từ người dùng như tìm kiếm (hunt), khởi tạo phòng
+(create) và xóa (release) phòng đã tạo. Thực hiện RTP/SRTP Streams,
+Transcoding, Mixing và Record file.</text:p>
+<text:p text:style-name="Text_20_body"> Thành phần cân bằng tải: thực
+hiện chức năng cân bằng các yêu cầu (requests), routing request cho phần
+điều khiển media.</text:p>
+<text:p text:style-name="Text_20_body"> Thành phần đồng bộ dữ liệu:
+đồng bộ hóa dữ liệu từ active sang standby, khôi phục dữ liệu khi khi
+hoạt động (active) thông qua SHM (Share Memory).</text:p>
+<text:p text:style-name="Text_20_body">2.3.2. Quá trình gửi SDP</text:p>
+<text:p text:style-name="Text_20_body">SDP được lấy từ gói tin SIP và
+được gửi đến thành phần điều khiển media theo một trong 2 cách sau: gửi
+trực tiếp đến cho thành phần điều khiển media, gửi đến thành phần điều
+khiển media thông qua thành phần cân bằng tải.</text:p>
+<text:p text:style-name="Text_20_body">Một số ví dụ khi gửi SDP cho
+thành phần điều khiển Media.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 27 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body"> Gửi SDP đến thành phần điều
+khiển media thông qua thành phần cân bằng tải:</text:p>
+<text:p text:style-name="Text_20_body">#!/usr/bin/expect -f set timeout
+-1 set port1 [lindex $argv 0] set port2 [lindex $argv 1] set port3
+[lindex $argv 2] spawn ../sdp/SCU.exe ‘0 SCU MPSLB 4’ sleep 10 send –
+“sdp expect”SDP content: ” send – “v=0\o=alice 2890844526 2890844526 IN
+IP4 host.atlanta.example.com\s=-\c=IN IP4 10.0.2.21\t=0 0\m=audio $port1
+RTP/AVP 8\a=rtpmap:8 PCMA/8000\m=video $port2 RTP/AVP 99 100\a=rtpmap:99
+H264/90000\a=rtpmap:100 vp9/90000\a=fmtp:99
+profile-level-id=64001F;sprop-parameter-sets=Z0LAFukDwKMg,aM4G4g==;pa
+cketization-mode=1\a=imageattr:99 send [x=320,y=240] recv [x=320,y=240]
+sleep 3 send –”hunt 1 1 1 sleep 3 send – “crte 1 1 1 1 ········· exit
+1</text:p>
+<text:p text:style-name="Text_20_body"> Trường hợp gửi SDP trực tiếp
+cho thành phần điều khiển media:</text:p>
+<text:p text:style-name="Text_20_body">#!/usr/bin/expect -f</text:p>
+<text:p text:style-name="Text_20_body">set timeout -1 set port1 [lindex
+$argv 0] set port2 [lindex $argv 1] set port3 [lindex $argv 2] spawn
+../sdp/SCU.exe ‘0 MPSLB MPSC 4’ sleep 10</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 28 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P190">send -- &quot;sdp\r&quot;</text:p>
+<text:p text:style-name="P191">expect &quot;SDP content: &quot;send -- &quot;v=0\\o=alice 2890844526 2890844526 IN IP4</text:p>
+<text:p text:style-name="P192">host.atlanta.example.com\\s=-\\c=IN IP4 10.0.2.21\\t=0 0\\m=audio $port1</text:p>
+<text:p text:style-name="P193">RTP/AVP 8\\a=rtpmap:8 PCMA/8000\\m=video $port2 RTP/AVP 99</text:p>
+<text:p text:style-name="P194">100\\a=rtpmap:99 <text:s text:c="7" />H264/90000\\a=rtpmap:100 <text:s text:c="8" />vp9/90000\\a=fmtp:99</text:p>
+<text:p text:style-name="P195">profile-level-id=64001F;sprop-parameter-sets=Z0LAFukDwKMg,aM4G4g==;pa</text:p>
+<text:p text:style-name="P196">cketization-mode=1\\a=imageattr:99 <text:s text:c="7" />send <text:s text:c="5" />\[x=320,y=240] <text:s text:c="6" />recv</text:p>
+<text:p text:style-name="P197">\[x=320,y=240]\r\r&quot;</text:p>
+<text:p text:style-name="P198">sleep 3</text:p>
+<text:p text:style-name="P199">send -- &quot;hunt 1 1 1\r&quot;</text:p>
+<text:p text:style-name="P200">sleep 3</text:p>
+<text:p text:style-name="P201">send -- &quot;crte 1 1 1 1\r&quot;</text:p>
+<text:p text:style-name="First_20_paragraph">2.3.3. Video
+conference</text:p>
+<text:p text:style-name="P202">Video conference cho phép người dùng tham gia vào conference (hội nghị) và giao</text:p>
+<text:p text:style-name="First_20_paragraph">tiếp đồng thời với tất cả
+những người tham gia khác bằng cách sử dụng kết hợp cả thoại (voice) và
+video hoặc chỉ video.</text:p>
+<text:p text:style-name="P203">Nếu người tham gia sử dụng các codec khác nhau để giao tiếp, thành phần điều</text:p>
+<text:p text:style-name="First_20_paragraph">khiển sẽ hỗ trợ chuyển mã
+(Transcoding) cho cả audio và video giữa những người tham gia. Các codec
+audio được thành phần media conference hỗ trợ là PCMA, PCMU, OPUS, AMR
+và AMR-WB, và codec video được hỗ trợ là H264, H265, VP8 và
+VP9.</text:p>
+<text:p text:style-name="P204">Thành phần điều khiển media có thể hỗ trợ quản lý số lượng phiên video và số</text:p>
+<text:p text:style-name="First_20_paragraph">lượng người tham gia mỗi
+phòng. Khi đạt đến phiên tối đa hoặc số người tham gia tối đa trên mỗi
+phòng, phiên gọi đến được chấp nhận mà không có video nếu chưa đạt đến
+phiên âm thanh tối đa.</text:p>
+<text:p text:style-name="P205">Số người tham gia tối đa trong một phòng và phiên video tối đa trong trong một</text:p>
+<text:p text:style-name="First_20_paragraph">phòng được cấu hình với
+những tham số riêng.</text:p>
+<text:p text:style-name="P206">Ngoài ra, thành phần điều khiển media cũng có thể thực hiện SRTP - Secure</text:p>
+<text:p text:style-name="First_20_paragraph">Realtime Transport Protocol
+cho hội nghị truyền hình để mã hóa luồng âm thanh nhằm mục đích bảo
+mật.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 29 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">2.3.4. Thực hiện Test (automation
+testing) cho Video Conference</text:p>
+<text:p text:style-name="Text_20_body">2.3.4.1. Test chức năng tạo
+phòng, tham gia, rời vào phòng và xóa phòng</text:p>
+<text:p text:style-name="Text_20_body">Yêu cầu: Thực hiện tìm kiếm, khởi
+tạo một video conference room với 8 người tham gia, sau đó người tham
+gia có thể rời khỏi phòng và xóa phòng thành công.</text:p>
+<text:p text:style-name="Text_20_body">Auto Scripts: được viết bằng
+shell scripts là tập hợp các lệnh Linux dùng để thực hiện các yêu cầu
+cho mục đích test.</text:p>
+<text:p text:style-name="Text_20_body">#Create and release an video and
+audio conference with 8 participants using the same codec (PCMA, H264
+and QVGA resolution) and IPv4</text:p>
+<text:p text:style-name="Text_20_body">#Create and release an the
+conference successfully</text:p>
+<text:p text:style-name="Text_20_body">#Load configuration</text:p>
+<text:p text:style-name="Text_20_body">OK:load_file=BASE_AMPC.ini;/SI/AMPC.ini</text:p>
+<text:p text:style-name="Text_20_body">#Restart the process</text:p>
+<text:p text:style-name="Text_20_body">OK:tail_log=AMPC_0</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=service
+ipageon stop</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=export
+LOCAL_SERVER=</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_remote_command=</text:p>
+<text:p text:style-name="Text_20_body">OK:pause=5</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=</text:p>
+<text:p text:style-name="Text_20_body">OK:pause=5</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_remote_command=</text:p>
+<text:p text:style-name="Text_20_body">OK:pause=5</text:p>
+<text:p text:style-name="Text_20_body">#Launch the conference</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=export
+LOCAL_SERVER=</text:p>
+<text:p text:style-name="Text_20_body">#Launch the conference</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 30 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_remote_command=cd
+/launcher ; ./SCU_VIDEO.sh -f=SCU_VIDEO_PCMA_H264_QVGA_8p -nb=8
+-step=739_video_1_01</text:p>
+<text:p text:style-name="Text_20_body">OK:pause=10</text:p>
+<text:p text:style-name="Text_20_body">OK:stop_log=AMPC_0</text:p>
+<text:p text:style-name="Text_20_body">OK:check_log=AMPC_0;;[x=320,y=240]
+recv [x=320,y=240],,NUMBER of current session(HuntRSC): 1,,NUMBER of
+call(room) : 1,,NUMBER of current session(HuntRSC): 8,,rm()
+Participant[000001] is removed,,NUMBER of current session(RelRSC):
+0</text:p>
+<text:p text:style-name="P207">Kết quả: Thực hiện tìm kiếm, tạo, rời phòng và xóa phòng thành công, recording</text:p>
+<text:p text:style-name="First_20_paragraph">thành công. Kết quả chi
+tiết được lưu dưới dạng file *.html.</text:p>
+<text:p text:style-name="P208"><text:s text:c="11" />Hình 2.3.3.1a-Kết quả sau khi thực hiện automation test.</text:p>
+<text:p text:style-name="First_20_paragraph">SVTH: Nguyễn Ngọc Thuận 31
+BÁO CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P209"><text:s text:c="16" />Hình 2.3.3.1b-Kết quả test không có lỗi (Passed)</text:p>
+<text:p text:style-name="P210"></text:p>
+<text:p text:style-name="P211"></text:p>
+<text:p text:style-name="P212"></text:p>
+<text:p text:style-name="P213"></text:p>
+<text:p text:style-name="P214"><text:s text:c="18" />Hình 2.3.3.1b-Kết quả test khi có lỗi (Failed)</text:p>
+<text:p text:style-name="First_20_paragraph">2.3.4.2. Test chức năng
+quản lý phiên và số người tham gia tối đa trong một phòng</text:p>
+<text:p text:style-name="P215"><text:s text:c="2" />Yêu cầu: Thực hiện tìm kiếm, khởi tạo một video conference room và giới hạn</text:p>
+<text:p text:style-name="First_20_paragraph">người tham gia là 4 người.
+Người tham gia từ 1-4 tham gia và rời khỏi phòng thành thành công. Kể từ
+người tham gia thứ 5 trở đi, yêu cầu bị từ chối, không thể tham
+gia.</text:p>
+<text:p text:style-name="P216">Auto Scripts:</text:p>
+<text:p text:style-name="First_20_paragraph">#Create and release an
+video conference with 8 participants. Reach maxVideoSession</text:p>
+<text:p text:style-name="Text_20_body">#The max participant in room will
+be 4, AMPC will reject the 5th call join request</text:p>
+<text:p text:style-name="Text_20_body">#Load configuration</text:p>
+<text:p text:style-name="Text_20_body">OK:load_file=BASE_AMPC.ini;/SI/AMPC.ini</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=cd/Tools/Conf_Modifier
+; ./modif_c onf.sh -f=AMPC.ini -c=MAIN::maxVideoSessionPerRoom==10
+-o=add_both</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=cd/Tools/Conf_Modifier
+; ./modif_c onf.sh -f=AMPC.ini -c=MAIN::maxAudioSessionPerRoom==10
+-o=add_both</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 32 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=cd/Tools/Conf_Modifier
+; ./modif_c onf.sh -f=AMPC.ini -c=MAIN::maxAudioSession==10
+-o=add_both</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=cd/Tools/Conf_Modifier
+; ./modif_c onf.sh -f=AMPC.ini -c=MAIN::maxVideoSession==4
+-o=add_both</text:p>
+<text:p text:style-name="Text_20_body">#Restart the process</text:p>
+<text:p text:style-name="Text_20_body">OK:tail_log=AMPC_0</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=</text:p>
+<text:p text:style-name="Text_20_body">OK:pause=2</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=export
+LOCAL_SERVER=</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_remote_command=</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_remote_command=</text:p>
+<text:p text:style-name="Text_20_body">OK:pause=5</text:p>
+<text:p text:style-name="Text_20_body">#Launch the conference</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=export
+LOCAL_SERVER=</text:p>
+<text:p text:style-name="Text_20_body">#Launch the conference</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_remote_command=cd
+/launcher ; ./SCU_VIDEO.sh -f=SCU_VIDEO_PCMA_H264_HD_8p -nb=8
+-step=739_video_maxVideoSession_4</text:p>
+<text:p text:style-name="Text_20_body">OK:pause=10</text:p>
+<text:p text:style-name="Text_20_body">OK:stop_log=AMPC_0</text:p>
+<text:p text:style-name="Text_20_body">OK:check_log=AMPC_0;;NUMBER of
+current session(HuntRSC): 1,,NUMBER of call(room) : 1,,NUMBER of current
+session(HuntRSC): 3,,AMPC_STATS: NUMBER of current session(HuntRSC):
+4,,INFO AMPC reached maximum concurrent (video) session</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=/Tools/Conf_Modifier/modif_conf.s
+h -f=/SI/AMPC.ini -c=MAIN::maxAudioSessionPerRoom==10
+-o=add_both</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=/Tools/Conf_Modifier/modif_conf.s
+h -f=/SI/AMPC.ini -c=MAIN::maxAudioSession==30 -o=add_both</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 33 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=export
+LOCAL_SERVER=</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_local_command=/Tools/Conf_Modifier/modif_conf.s
+h -f=/SI/AMPC.ini -c=MAIN::maxVideoSessionPerRoom==8
+-o=add_both</text:p>
+<text:p text:style-name="Text_20_body">OK:execute_remote_command=/Tools/Conf_Modifier/modif_conf.
+sh -f=/SI/AMPC.ini -c=MAIN::maxVideoSession==2000 -o=add_both</text:p>
+<text:p text:style-name="Text_20_body">Kết quả: Thực hiện tìm kiếm, tạo,
+rời phòng và xóa phòng thành công, recording thành công.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 34 BÁO
+CÁO THỰC TẬP TỐT NGHIỆP GVHD: Nguyễn Quang Vinh</text:p>
+<text:p text:style-name="P217"><text:s text:c="33" />KẾT LUẬN</text:p>
+<text:p text:style-name="P218"></text:p>
+<text:p text:style-name="P219"><text:s text:c="2" />Trong quá trình thực tập được ban giám đốc công ty, cũng như các anh chị</text:p>
+<text:p text:style-name="First_20_paragraph">trong công ty đã tạo điều
+kiện để cho em có thể học hỏi và làm việc thực tế, tiếp xúc với nhiều
+công việc khác nhau: nghiên cứu tài liệu, thực hiện manual test, viết
+Scripts để thực hiện automation test, tham gia làm việc với tác phong
+chuyên nghiệp và biết được môi trường làm việc quốc tế là như thế nào.
+Qua đó em học hỏi được rất nhiều kinh nghiệm thực tế và áp dụng được
+phần nào kiến thức đã được học trong trường để làm việc.Tuy nhiên, do
+thời gian thực tập ngắn, làm nhiều việc công việc khác nhau và chưa đi
+sâu vào một chuyên môn nào nên kiến thức thu thập sau khi thực tập chỉ
+mang tính bao quát và còn nhiều hạn chế. Tuy nhiên, em vẫn xem đó là một
+trong những hành trang đầu tiên và quý báu để tránh đi sữ bỡ ngỡ sau khi
+ra trường làm việc.</text:p>
+<text:p text:style-name="P220"><text:s text:c="2" />Một lần nữa em xin gửi lời cảm ơn đến Công ty TMA Solutions đã giúp đỡ và</text:p>
+<text:p text:style-name="First_20_paragraph">tạo điều kiện để em có thể
+tham gia thực tập trong thời gian vừa rồi. Em xin cảm ơn các thầy giáo,
+cô giáo khoa Điện đã tạo mọi điều kiện để em có thể tìm được công ty
+thực tập và hoàn thành báo cáo đúng thời gian quy định.</text:p>
+<text:p text:style-name="Text_20_body">SVTH: Nguyễn Ngọc Thuận 35
+</text:p>
+</office:text>
+</office:body>
+</office:document-content>

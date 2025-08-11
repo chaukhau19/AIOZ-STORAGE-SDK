@@ -1,0 +1,6 @@
+LargeFiles*
+Test-Reports
+Test-Results
+Logs*
+node_modules*
+Downloads*
