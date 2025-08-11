@@ -11,20 +11,20 @@
   "scripts": {
     "test:CreateFolder": "node Access_Grant/Buckets/No_Expiration/01_CreateFolder_Tests.js",
     "test:UploadFile": "node Access_Grant/Buckets/No_Expiration/02_UploadFile_Tests.js",
-    "test:ListFiles": "node Access_Grant/Buckets/No_Expiration/03_ListFiles_Tests.js",
+    "test:ListFiles": "node Access_Grant/Buckets/No_Expiration/03_ListFile_Tests.js",
     "test:DownloadFile": "node Access_Grant/Buckets/No_Expiration/04_DownloadFile_Tests.js",
     "test:MoveFile": "node Access_Grant/Buckets/No_Expiration/05_MoveFile_Tests.js",
     "test:DeleteFile": "node Access_Grant/Buckets/No_Expiration/06_DeleteFile_Tests.js",
     "test:BucketValid": "node Access_Grant/Buckets/No_Expiration/07_Bucket_Valid.js",
     "test:BucketInvalid": "node Access_Grant/Buckets/No_Expiration/08_Bucket_Invalid.js",
-    "test:ListBucketValid": "node Access_Grant/Buckets/Expired/09_ListBucket_Valid.js",
-    "test:ListBucketInvalid": "node Access_Grant/Buckets/Expired/10_ListBucket_Invalid.js",
-    "test:UploadOver10GBFile": "node Access_Grant/Buckets/Expired/19_UploadOver10GBFile.js",
-    "test:UploadSmallFileValid": "node Access_Grant/Buckets/Expired/20_UploadSmallFile_Valid.js",
-    "test:UploadSmallFileInvalid": "node Access_Grant/Buckets/Expired/21_UploadSmallFile_Invalid.js",
-    "test:UploadMultiFileValid": "node Access_Grant/Buckets/Expired/22_UploadMultiFile_Valid.js",
-    "test:UploadMultiFileInvalid": "node Access_Grant/Buckets/Expired/23_UploadMultiFile_Invalid.js",
-    "test:UploadLargeFileValid": "node Access_Grant/Buckets/Expired/24_UploadLargeFile_Valid.js",
-    "test:UploadLargeFileInvalid": "node Access_Grant/Buckets/Expired/25_UploadLargeFile_Invalid.js"
+    "test:ListBucketValid": "node Access_Grant/Buckets/No_Expiration/09_ListBucket_Valid.js",
+    "test:ListBucketInvalid": "node Access_Grant/Buckets/No_Expiration/10_ListBucket_Invalid.js",
+    "test:UploadOver10GBFile": "node Access_Grant/Buckets/No_Expiration/19_UploadOver10GBFile.js",
+    "test:UploadSmallFileValid": "node Access_Grant/Buckets/No_Expiration/20_UploadSmallFile_Valid.js",
+    "test:UploadSmallFileInvalid": "node Access_Grant/Buckets/No_Expiration/21_UploadSmallFile_Invalid.js",
+    "test:UploadMultiFileValid": "node Access_Grant/Buckets/No_Expiration/22_UploadMultiFile_Valid.js",
+    "test:UploadMultiFileInvalid": "node Access_Grant/Buckets/No_Expiration/23_UploadMultiFile_Invalid.js",
+    "test:UploadLargeFileValid": "node Access_Grant/Buckets/No_Expiration/24_UploadLargeFile_Valid.js",
+    "test:UploadLargeFileInvalid": "node Access_Grant/Buckets/No_Expiration/25_UploadLargeFile_Invalid.js"
   }
 }
