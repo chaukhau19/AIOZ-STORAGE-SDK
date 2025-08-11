@@ -30,8 +30,6 @@ TEST_RETRIES=3                         # Default: 3
 
 ####################################################################
 
-## Test Categories
-
 ## Running Tests
 
 ### Run all tests:
@@ -41,14 +39,18 @@ TEST_RETRIES=3                         # Default: 3
 
 ### Run specific test suites:
 ```bash
-# Run bucket operations
+# Run bucket operations tests
 node Buckets.js
+
+# Run object operations tests
+node Object.js
 
 # Run single file operations
 node UploadFile.js
 
 # Run multi-file operations
 node UploadMultiFile.js
+
 ```
 
 ## Test Results
@@ -68,9 +70,15 @@ The test suite includes:
 - Progress monitoring for large files
 - Stream handling for binary data
 
+## Error Handling
+- Retries on failed operations (max 3 attempts)
+- Detailed error reporting
+- Verification steps after each operation
+- Batch processing for large operations
+
 ####################################################################
 
-### 1. Buckets.js
+## 1. Buckets.js
 Tests basic bucket operations using the following credentials:
 - Access Key: `FSH37T5Z3YIOC7AKCP2WZ6XMMI`
 - Secret Key: `G5B5U64HDSNZ7CWVEFIYZEOMZDRK2HPT4QKVZSFCLDICHSYJ5FLA`
@@ -95,7 +103,7 @@ Tests basic bucket operations using the following credentials:
    - Delete test bucket
    - Verify successful deletion
 
-### 2. Object.js
+## 2. Object.js
 Tests object-level operations using the following credentials:
 - Access Key: `FTKH74PFVY6ZFVLEJQVXA2FD5M`
 - Secret Key: `G77TCUV5Y764AEJ236GHCO5ONI45XJG6WRQBEC3SGHLXW4H2LBKA`
@@ -155,28 +163,9 @@ Tests object-level operations using the following credentials:
 
 ####################################################################
 
-## Error Handling
-- Retries on failed operations (max 3 attempts)
-- Detailed error reporting
-- Verification steps after each operation
-- Batch processing for large operations
-
-## Running Tests
-To run the test suites:
-
-```bash
-# Run bucket operations tests
-node Buckets.js
-
-# Run object operations tests
-node Object.js
-```
-####################################################################
-
-## Development
+# Development
 
 cat <<'EOF' > README.md
-# Test Suite Overview for Bucket & File Operations
 
 ## 1. BUCKET OPERATIONS
 **Files**: `15_Bucket_Valid.js`, `16_Bucket_Invalid.js`, `17_Bucket_Limits.js`
