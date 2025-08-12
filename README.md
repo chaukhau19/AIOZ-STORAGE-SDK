@@ -370,6 +370,12 @@ Tests object-level operations using the following credentials:
 ```bash 
 AIOZ-STORAGE-SDK/
 │
+├── CustomLibs/                  # Extended utility libraries
+│   ├── Csv.js                   # Read/write CSV files
+│   ├── Excel.js                 # Read/write Excel files
+│   ├── ReadDataExcel.js         # Fetch test data from Excel
+│   ├── SendEmail.js             # Send automated test reports via email
+│
 ├── Config/                  # Configuration & common utilities
 │   ├── Config.js             # Environment & global settings
 │   ├── Logger.js             # Centralized logging
@@ -385,9 +391,12 @@ AIOZ-STORAGE-SDK/
 │   │   ├── FolderData.json
 │   │   ├── FileData.json
 │
-├── SDK/                      # API handlers (SDK functions)
-│   ├── AccessGrant.js         # API calls related to access grants
-│
+├── SDK/                               # API handlers (SDK wrapper functions)
+│   ├── AccessGrant/
+│   │   ├── Bucket.js                  # Create, List, Delete bucket
+│   │   ├── Folder.js                  # Create, Move, Delete folder
+│   │   ├── File.js                    # Upload, List, Download, Delete file
+│     
 ├── Tests/                    # Test cases
 │   ├── AccessGrant/
 │   │   ├── Bucket.spec.js       # CreateBucket, ListBucket, DeleteBucket
@@ -396,6 +405,7 @@ AIOZ-STORAGE-SDK/
 │
 ├── Logs/                     # Test logs
 ├── Test-Reports/             # Generated test reports
+├── SendEmail.spec.js        # Test for email sending feature
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Project dependencies & scripts
 ├── AIOZ_STORAGE.bat          # Shortcut for running tests on Windows
