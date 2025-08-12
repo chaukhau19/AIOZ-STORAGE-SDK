@@ -366,3 +366,45 @@ Tests object-level operations using the following credentials:
 ---
 
 # Part 5 - Source Folder
+
+```bash 
+AIOZ-STORAGE-SDK/
+│
+├── Config/                  # Config và utils
+│   ├── Config.js
+│   ├── Logger.js                   # Ghi log chung
+│   ├── Reporter.js                 # Custom reporter
+│   ├── Request.js                  # Hàm GET/POST/PUT/DELETE chung
+│   ├── StorageUtils.js
+│   ├── TestReporter.js
+│   ├── TestRunner.js
+│
+├── Data/                    # Data test
+│   ├── AccessGrantData.json
+│
+├── SDK/                     # API handler (SDK call)
+│   ├── AccessGrant.js              # Các hàm call API access grant
+│
+├── Tests/                   # Test case
+│   ├── AccessGrant/
+│   │   ├── CreateFolder.spec.js
+│   │   ├── UploadFile.spec.js
+│   │   ├── ListFile.spec.js
+│   │   ├── DownloadFile.spec.js
+│   │   ├── MoveFile.spec.js
+│   │   ├── DeleteFile.spec.js
+│   │   ├── CreateBucket.spec.js
+│   │   ├── UploadOver10GBFile.js
+│   │   ├── UploadSmallFile.js
+│
+├── Logs/                    # Lưu log test
+│
+├── Test-Reports/            # Lưu report test
+│
+├── playwright.config.js
+├── package.json
+├── AIOZ_STORAGE.bat
+└── README.md
+```
+
+---
