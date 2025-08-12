@@ -380,27 +380,22 @@ AIOZ-STORAGE-SDK/
 │   ├── TestRunner.js         # Central test runner
 │
 ├── Data/                     # Test data (replaceable for different projects)
-│   ├── AccessGrantData.json
+│   ├── AccessGrant/
+│   │   ├── BucketData.json
+│   │   ├── FolderData.json
+│   │   ├── FileData.json
 │
 ├── SDK/                      # API handlers (SDK functions)
 │   ├── AccessGrant.js         # API calls related to access grants
 │
 ├── Tests/                    # Test cases
 │   ├── AccessGrant/
-│   │   ├── CreateFolder.spec.js
-│   │   ├── UploadFile.spec.js
-│   │   ├── ListFile.spec.js
-│   │   ├── DownloadFile.spec.js
-│   │   ├── MoveFile.spec.js
-│   │   ├── DeleteFile.spec.js
-│   │   ├── CreateBucket.spec.js
-│   │   ├── UploadOver10GBFile.js
-│   │   ├── UploadSmallFile.js
+│   │   ├── Bucket.spec.js       # CreateBucket, ListBucket, DeleteBucket
+│   │   ├── Folder.spec.js       # CreateFolder, MoveFolder, DeleteFolder
+│   │   ├── File.spec.js         # UploadFile, UploadOver10GBFile, UploadSmallFile, ListFile, DownloadFile, DeleteFile
 │
 ├── Logs/                     # Test logs
-│
 ├── Test-Reports/             # Generated test reports
-│
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Project dependencies & scripts
 ├── AIOZ_STORAGE.bat          # Shortcut for running tests on Windows
