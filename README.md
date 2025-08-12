@@ -376,7 +376,7 @@ AIOZ-STORAGE-SDK/
 │   ├── ReadDataExcel.js         # Fetch test data from Excel
 │   ├── SendEmail.js             # Send automated test reports via email
 │
-├── Config/                  # Configuration & common utilities
+├── Config/                   # Configuration & common utilities
 │   ├── Config.js             # Environment & global settings
 │   ├── Logger.js             # Centralized logging
 │   ├── Reporter.js           # Custom test reporting logic
@@ -397,7 +397,7 @@ AIOZ-STORAGE-SDK/
 │   │   ├── Folder.js                  # Create, Move, Delete folder
 │   │   ├── File.js                    # Upload, List, Download, Delete file
 │     
-├── Tests/                    # Test cases
+├── Tests/                       # Test cases
 │   ├── AccessGrant/
 │   │   ├── Bucket.spec.js       # CreateBucket, ListBucket, DeleteBucket
 │   │   ├── Folder.spec.js       # CreateFolder, MoveFolder, DeleteFolder
@@ -405,7 +405,7 @@ AIOZ-STORAGE-SDK/
 │
 ├── Logs/                     # Test logs
 ├── Test-Reports/             # Generated test reports
-├── SendEmail.spec.js        # Test for email sending feature
+├── SendEmail.spec.js         # Test for email sending feature
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Project dependencies & scripts
 ├── AIOZ_STORAGE.bat          # Shortcut for running tests on Windows
