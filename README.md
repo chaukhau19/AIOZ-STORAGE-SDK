@@ -370,22 +370,22 @@ Tests object-level operations using the following credentials:
 ```bash 
 AIOZ-STORAGE-SDK/
 │
-├── Config/                  # Config và utils
-│   ├── Config.js
-│   ├── Logger.js                   # Ghi log chung
-│   ├── Reporter.js                 # Custom reporter
-│   ├── Request.js                  # Hàm GET/POST/PUT/DELETE chung
-│   ├── StorageUtils.js
-│   ├── TestReporter.js
-│   ├── TestRunner.js
+├── Config/                  # Configuration & common utilities
+│   ├── Config.js             # Environment & global settings
+│   ├── Logger.js             # Centralized logging
+│   ├── Reporter.js           # Custom test reporting logic
+│   ├── Request.js            # Common GET/POST/PUT/DELETE functions
+│   ├── StorageUtils.js       # Utility functions for storage operations
+│   ├── TestReporter.js       # Enhanced report formatter
+│   ├── TestRunner.js         # Central test runner
 │
-├── Data/                    # Data test
+├── Data/                     # Test data (replaceable for different projects)
 │   ├── AccessGrantData.json
 │
-├── SDK/                     # API handler (SDK call)
-│   ├── AccessGrant.js              # Các hàm call API access grant
+├── SDK/                      # API handlers (SDK functions)
+│   ├── AccessGrant.js         # API calls related to access grants
 │
-├── Tests/                   # Test case
+├── Tests/                    # Test cases
 │   ├── AccessGrant/
 │   │   ├── CreateFolder.spec.js
 │   │   ├── UploadFile.spec.js
@@ -397,14 +397,14 @@ AIOZ-STORAGE-SDK/
 │   │   ├── UploadOver10GBFile.js
 │   │   ├── UploadSmallFile.js
 │
-├── Logs/                    # Lưu log test
+├── Logs/                     # Test logs
 │
-├── Test-Reports/            # Lưu report test
+├── Test-Reports/             # Generated test reports
 │
-├── playwright.config.js
-├── package.json
-├── AIOZ_STORAGE.bat
-└── README.md
+├── playwright.config.js      # Playwright configuration
+├── package.json              # Project dependencies & scripts
+├── AIOZ_STORAGE.bat          # Shortcut for running tests on Windows
+└── README.md                 # Documentation
 ```
 
 ---
