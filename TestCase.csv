@@ -1,0 +1,5 @@
+[ ] Rebuild SDK standard directory test cases
+[ ] Fix testcase running successfully
+[ ] Fix run all test cases with AIOZ_STORAGE.bat and AIOZ_STORAGE.sh
+[ ] Add jenkinsfile to run the test cases
+[ ] Add send report to email
