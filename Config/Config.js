@@ -1,4 +1,5 @@
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const s3Config = {
     REGION: process.env.AIOZ_REGION || 'us-east-1',
@@ -218,10 +219,10 @@ const bucketConfig = {
 };
 
 const fileConfig = {
-    DOWNLOAD_DIR: path.resolve(__dirname, '../Downloads'),
-    UPLOAD_DIR: path.resolve(__dirname, '../Data'),
+    DOWNLOAD_DIR: path.resolve(process.cwd(), '../Downloads'),
+    UPLOAD_DIR: path.resolve(process.cwd(), '../Uploads'),
+    LARGE_FILES_DIR: path.resolve(process.cwd(), '../LargeFiles'),
     TEST_FOLDER: 'test-files/',
-    LARGE_FILES_DIR: path.resolve(__dirname, '../LargeFiles'),
     DEFAULT_FILE_NAME: 'test.txt',
     LARGE_FILES_FOLDER: 'large-files/',
     LARGE_FILE_NAME: 'large-test.bin',
@@ -230,12 +231,20 @@ const fileConfig = {
     MULTI_FILES_FOLDER: 'multi-files/'
 };
 
+const folderConfig = {
+    FOLDER_DIR: path.resolve(process.cwd(), '../Folders')
+};
+
 const uploadConfig = {
     CHUNK_SIZE: 5 * 1024 * 1024, // 5MB chunks
     MAX_RETRIES: 3,
     RETRY_DELAY: 1000, // 1 second
     CONCURRENT_UPLOADS: 3,
     LARGE_FILE_SIZE: 1024 * 1024 * 1024 // 1GB
+};
+
+const downloadConfig = {
+    DOWNLOAD_DIR: path.resolve(process.cwd(), '../Downloads')
 };
 
 const metadataConfig = {
@@ -247,6 +256,8 @@ const metadataConfig = {
     },
     LARGE_FILE_CONTENT_TYPE: 'application/octet-stream'
 };
+
+
 
 // Add permission types
 const permissionTypes = {
@@ -267,11 +278,13 @@ const permissionTypes = {
     WRITE_LIST_DELETE: ['WRITE', 'LIST', 'DELETE']
 };
 
-module.exports = {
+export {
     s3Config,
     bucketConfig,
     fileConfig,
+    folderConfig,
     uploadConfig,
+    downloadConfig,
     metadataConfig,
     permissionTypes
 }; 

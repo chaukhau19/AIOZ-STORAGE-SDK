@@ -1,0 +1,14 @@
+{
+  "name": "Test",
+  "description": "This is an NFT",
+  "properties": [
+    {
+      "trait_type": "Color",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Medium"
+    }
+  ]
+}

@@ -371,45 +371,46 @@ Tests object-level operations using the following credentials:
 AIOZ-STORAGE-SDK/
 │
 ├── CustomLibs/                  # Extended utility libraries
-│   ├── Csv.js                   # Read/write CSV files
-│   ├── Excel.js                 # Read/write Excel files
-│   ├── ReadDataExcel.js         # Fetch test data from Excel
+# │   ├── Csv.js                   # Read/write CSV files
+# │   ├── Excel.js                 # Read/write Excel files
+# │   ├── ReadDataExcel.js         # Fetch test data from Excel
 │   ├── SendEmail.js             # Send automated test reports via email
+│   ├── SendTelegram.js             # Send automated test reports via email
 │
 ├── Config/                   # Configuration & common utilities
 │   ├── Config.js             # Environment & global settings
-│   ├── Logger.js             # Centralized logging
-│   ├── Reporter.js           # Custom test reporting logic
 │   ├── Request.js            # Common GET/POST/PUT/DELETE functions
 │   ├── StorageUtils.js       # Utility functions for storage operations
 │   ├── TestReporter.js       # Enhanced report formatter
-│   ├── TestRunner.js         # Central test runner
 │
-├── Data/                     # Test data (replaceable for different projects)
-│   ├── AccessGrant/
-│   │   ├── BucketData.json
-│   │   ├── FolderData.json
-│   │   ├── FileData.json
+├── Data/                    
+│   ├── 24H_Expiration/    
+│   ├── No_Expiration/
+│   │   ├── BucketData.js
+│   │   ├── FolderData.js
+│   │   ├── FileData.js
 │
-├── SDK/                               # API handlers (SDK wrapper functions)
-│   ├── AccessGrant/
+├── Resources/   
+│   ├── 24H_Expiration/                     
+│   ├── No_Expiration/
 │   │   ├── Bucket.js                  # Create, List, Delete bucket
 │   │   ├── Folder.js                  # Create, Move, Delete folder
 │   │   ├── File.js                    # Upload, List, Download, Delete file
 │     
-├── Tests/                       # Test cases
-│   ├── AccessGrant/
+├── Tests/      
+│   ├── 24H_Expiration/           
+│   ├── No_Expiration/
 │   │   ├── Bucket.spec.js       # CreateBucket, ListBucket, DeleteBucket
 │   │   ├── Folder.spec.js       # CreateFolder, MoveFolder, DeleteFolder
 │   │   ├── File.spec.js         # UploadFile, UploadOver10GBFile, UploadSmallFile, ListFile, DownloadFile, DeleteFile
 │
-├── Logs/                     # Test logs
-├── Test-Reports/             # Generated test reports
-├── SendEmail.spec.js         # Test for email sending feature
+├── SendReport.js             # Test for report sending feature
+├── Jenkinsfile               # 
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Project dependencies & scripts
 ├── AIOZ_STORAGE.bat          # Shortcut for running tests on Windows
-└── README.md                 # Documentation
+├── AIOZ_STORAGE.sh           # Shortcut for running tests on Linux
+└── README.md                 # Documentation       
 ```
 
 ---

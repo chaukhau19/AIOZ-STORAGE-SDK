@@ -14,20 +14,6 @@ cleanup() {
 }
 trap cleanup EXIT  
 
-yarn test:CreateFolder --workers=1
-yarn test:UploadFile --workers=1
-yarn test:ListFiles --workers=1
-yarn test:DownloadFile --workers=1
-yarn test:MoveFile --workers=1
-yarn test:DeleteFile --workers=1
-yarn test:BucketValid --workers=1
-yarn test:BucketInvalid --workers=1
-yarn test:ListBucketValid --workers=1
-yarn test:ListBucketInvalid --workers=1
-yarn test:UploadOver10GBFile --workers=1
-yarn test:UploadSmallFileValid --workers=1
-yarn test:UploadSmallFileInvalid --workers=1
-yarn test:UploadMultiFileValid --workers=1
-yarn test:UploadMultiFileInvalid --workers=1
-yarn test:UploadLargeFileValid --workers=1
-yarn test:UploadLargeFileInvalid --workers=1
+yarn test:File --workers=1
+yarn test:Folder --workers=1
+yarn test:Bucket --workers=1
