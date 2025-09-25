@@ -1,19 +1,16 @@
-#!/bin/bash
-set -e  
+#!/usr/bin/env bash
+set -euo pipefail
 
-# Launch Xvfb in the background (quietly)
-Xvfb :99 -ac +extension RANDR +extension RENDER +extension GLX -noreset 1>/dev/null 2>&1 &  
-XVFB_PID=$!  
-export DISPLAY=:99
-sleep 2  
+if command -v Xvfb >/dev/null 2>&1; then
+  Xvfb :99 -ac +extension RANDR +extension RENDER +extension GLX -noreset 1>/dev/null 2>&1 &
+  XVFB_PID=$!
+  export DISPLAY=:99
+  sleep 2
+  trap 'kill ${XVFB_PID} || true' EXIT
+fi
 
-# Make sure Xvfb is disabled when the script ends
-cleanup() {
-    echo "Stopping Xvfb..."
-    kill $XVFB_PID || true
-}
-trap cleanup EXIT  
-
-yarn test:File --workers=1
-yarn test:Folder --workers=1
-yarn test:Bucket --workers=1
+if [ $# -eq 0 ]; then
+  npx playwright test --workers=1
+else
+  npx playwright test --workers=1 "$@"
+fi

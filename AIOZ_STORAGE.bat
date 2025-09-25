@@ -1,5 +1,8 @@
 @echo off
-
-call yarn test:File
-call yarn test:Folder
-call yarn test:Bucket
+setlocal
+if "%1"=="" (
+  npx playwright test
+) else (
+  npx playwright test %*
+)
+endlocal

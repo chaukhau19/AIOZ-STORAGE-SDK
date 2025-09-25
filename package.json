@@ -15,10 +15,10 @@
   },
   "scripts": {
     "test": "playwright test",
-    "test:File": "playwright test Tests/No_Expiration/File.spec.js",
-    "test:Folder": "playwright test Tests/No_Expiration/Folder.spec.js",
-    "test:Bucket": "playwright test Tests/No_Expiration/Bucket.spec.js",
-    "test:all": "playwright test Tests/No_Expiration/File.spec.js Tests/No_Expiration/Folder.spec.js Tests/No_Expiration/Bucket.spec.js"
+    "test:Bucket": "playwright test Tests/Service/Bucket.spec.js",
+    "test:S3Credentials": "playwright test Tests/Service/S3Credentials.spec.js",
+    "test:All": "playwright test Tests"
+    
   },
   "main": "index.js",
   "repository": "https://github.com/chaukhau19/AIOZ-STORAGE-SDK.git",

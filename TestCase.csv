@@ -1,4 +1,23 @@
+S3Credentials:
+S3Credentials.spec.js: test case for s3 credentials not created because manually created on UI (list s3 credentials using access key and secret key)
+
+Service:
+Bucket.spec.js: test case for bucket operations (create bucket using BucketData.js, list bucket using BucketData.js, delete bucket using BucketData.js)
+File.spec.js: test case for file operations (upload file using FileData.js and Uploads folder, list file using FileData.js, download file using FileData.js and Downloads folder, delete file using FileData.js)
+Folder.spec.js: test case for folder operations (create folder using FolderData.js, list folder using FolderData.js, delete folder using FolderData.js)
+
+
+Re-Build all source code and test cases flow S3 SDK correctly: Start from Review code S3Credentials -> Run and rebuild Bucket -> Run and rebuild File -> Run and rebuild Folder  
+
+
+
+S3Credentials.spec.js: test case for s3 credentials (create s3 credentials using S3CredentialsData.js and PERMISSION_COMBINATIONS and generate access key and secret key exported to LIMITED_CREDENTIALS from data returned in response, list s3 credentials using access key and secret key, delete s3 credentials using access key and secret key)
+
+
+=========================================
 [ ] Formatting code and folder structure
+[ ] Clear code and combine common functions into one file and then call them out in the test cases
+[ ] Format correct SDK standard directory test cases
 [ ] Rebuild SDK standard directory test cases
 [ ] Fix testcase running successfully
 [ ] Fix run all test cases with AIOZ_STORAGE.bat and AIOZ_STORAGE.sh

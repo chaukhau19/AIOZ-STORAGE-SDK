@@ -1,62 +1,38 @@
-# Part 1 - Introduce 
+# AIOZ STORAGE SDK - Playwright JS Automation
+
+Automation test suite for AIOZ Storage S3-compatible API using Playwright Test and AWS SDK v3.
+
+Docs: [AIOZ Storage](https://aiozstorage.network/)
 
 ## Features
-- Organized test categories (bucket operations, object operations)
-- Automatic retries for flaky tests
-- Test timeouts
-- Detailed test reporting
+- Organized test categories (bucket, folder, file)
+- Automatic retries via helpers
+- Playwright test runner, CI-friendly
 - Environment variable configuration
-- Command-line support for running specific test suites
 
-## Configuration
-You can configure the test suite with environment variables:
+## Install
+```
+npm ci
+npx playwright install --with-deps
+```
 
-## Required
-AIOZ_ACCESS_KEY_ID=your_access_key
-AIOZ_SECRET_ACCESS_KEY=your_secret_key
+## Environment
+- AIOZ_REGION (default: us-east-1)
+- AIOZ_ENDPOINT (default: https://s3.aiozstorage.network)
 
-## Optional
-AIOZ_REGION=us-east-1                  # Default: us-east-1
-AIOZ_ENDPOINT=https://your-endpoint/   # Default: https://s3.aiozstorage.network/
-AIOZ_TEST_BUCKET=your-test-bucket      # Default: testdata-1
-TEST_TIMEOUT=30000                     # Default: 30000 (30 seconds)
-TEST_RETRIES=3                         # Default: 3
+Credentials for automated scenarios are defined in `Config/Config.js`.
+
+## Run
+```
+npm run test:Bucket
+npm run test:Folder
+npm run test:File
+npm test
+```
 
 ---
 
-# Part 2 - Running Tests
-
-## Run all tests
-node AllTests.js
-
-## Run specific test suites
-node Buckets.js         # Bucket operations
-node Object.js          # Object operations
-node UploadFile.js      # Single file upload
-node UploadMultiFile.js # Multi-file upload
-
-## Or via npm script
-npm run test:UploadFile
-
-## Test Results
-- Overall pass/fail counts
-- Test duration
-- Results by test suite
-- Detailed error messages
-- Retry attempts for failed tests
-
-## Error Handling
-- Automatic retries (max 3 attempts)
-- Timeouts for hanging operations
-- Detailed error reporting
-- Clean exit codes for CI/CD integration
-- Progress monitoring for large files
-- Stream handling for binary data
-- Verification after each operation
-- Batch processing for large datasets
-
-
-# Part 3 - Detailed Test Scenarios
+# Detailed Test Scenarios
 
 ## 1. BUCKET OPERATIONS
 **Files**: `15_Bucket_Valid.js`, `16_Bucket_Invalid.js`, `17_Bucket_Limits.js`
@@ -278,7 +254,9 @@ npm run test:UploadFile
 
 --- 
 
-# Part 4 - Details Testcase
+---
+
+# Details Testcase
 
 ## 1. Buckets.js
 Tests basic bucket operations using the following credentials:
@@ -370,42 +348,30 @@ Tests object-level operations using the following credentials:
 ```bash 
 AIOZ-STORAGE-SDK/
 │
-├── CustomLibs/                  # Extended utility libraries
-# │   ├── Csv.js                   # Read/write CSV files
-# │   ├── Excel.js                 # Read/write Excel files
-# │   ├── ReadDataExcel.js         # Fetch test data from Excel
-│   ├── SendEmail.js             # Send automated test reports via email
-│   ├── SendTelegram.js             # Send automated test reports via email
+├── Config/                   
+│   ├── Common.js             
+│   ├── Config.js             
+│   ├── Environment.js      
+│   ├── TestReporter.js       
 │
-├── Config/                   # Configuration & common utilities
-│   ├── Config.js             # Environment & global settings
-│   ├── Request.js            # Common GET/POST/PUT/DELETE functions
-│   ├── StorageUtils.js       # Utility functions for storage operations
-│   ├── TestReporter.js       # Enhanced report formatter
-│
-├── Data/                    
-│   ├── 24H_Expiration/    
-│   ├── No_Expiration/
+├── Data/                      
+│   ├── Service/
 │   │   ├── BucketData.js
 │   │   ├── FolderData.js
 │   │   ├── FileData.js
 │
-├── Resources/   
-│   ├── 24H_Expiration/                     
-│   ├── No_Expiration/
+├── Resources/                      
+│   ├── Service/
 │   │   ├── Bucket.js                  # Create, List, Delete bucket
 │   │   ├── Folder.js                  # Create, Move, Delete folder
 │   │   ├── File.js                    # Upload, List, Download, Delete file
 │     
-├── Tests/      
-│   ├── 24H_Expiration/           
-│   ├── No_Expiration/
+├── Tests/             
+│   ├── Service/
 │   │   ├── Bucket.spec.js       # CreateBucket, ListBucket, DeleteBucket
 │   │   ├── Folder.spec.js       # CreateFolder, MoveFolder, DeleteFolder
 │   │   ├── File.spec.js         # UploadFile, UploadOver10GBFile, UploadSmallFile, ListFile, DownloadFile, DeleteFile
 │
-├── SendReport.js             # Test for report sending feature
-├── Jenkinsfile               # 
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Project dependencies & scripts
 ├── AIOZ_STORAGE.bat          # Shortcut for running tests on Windows

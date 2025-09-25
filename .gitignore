@@ -2,6 +2,7 @@ LargeFiles*
 Test-Reports
 Test-Results
 Logs*
+playwright-report
 node_modules*
 # Downloads*
 # Uploads*
